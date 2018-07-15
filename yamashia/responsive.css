@@ -1,19 +1,23 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
  .top-wrapper p {
-    font-size: 32px;
+    font-size: 35px;
   }
-  
-  .header-right {
+
+ .header-right {
+  width: 100%;
+  }
+ 
+  .menu{
   display: none;
   }
-  
+ 
+ .sp-menu{
+  display: block;
+  }
+
   .footer-list {
   display: none;
-  }
-  
-  footer {
-    text-align:center;
   }
   }
 
@@ -23,18 +27,9 @@
  .header-left {
  font-size: 25px;
  }
-
- .header-right {
-  display: none;
-  }
-  
   .top-wrapper {
     text-align: center;
   }
 
-  .footer-list {
-  display: none;
-  }
-  
   }
  
