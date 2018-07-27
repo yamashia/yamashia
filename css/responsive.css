@@ -1,0 +1,34 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+ .top-wrapper p {
+    font-size: 35px;
+  }
+
+ .header-right {
+  width: 100%;
+  }
+ 
+  .menu{
+  display: none;
+  }
+ 
+ .sp-menu{
+  display: block;
+  }
+
+  .footer-list {
+  display: none;
+  }
+  }
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+
+ .header-left {
+ font-size: 25px;
+ }
+  .top-wrapper {
+    text-align: center;
+  }
+
+}
