@@ -123,13 +123,6 @@ header {
 
 }
 
-.top-wrapper p {
-  color: black;
-  font-size: 35px;
-  text-align: center;
-  background-color: #dcdcdc;
-}
-
 .call-contact {
 margin-left: 10px;
 }
@@ -144,6 +137,13 @@ margin-left: 10px;
 
 .contact {
 margin-left: 10px;
+}
+
+.top-wrapper p {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  background-color: #dcdcdc;
 }
 
  footer {
@@ -194,8 +194,8 @@ margin-left: 10px;
 /*ハンバーガーアイコンをCSSだけで表現*/
 #nav-open span, #nav-open span:before, #nav-open span:after {
   position: absolute;
-  height: 4px;/*線の太さ*/
-  width: 25px;/*長さ*/
+  height: 5px;/*線の太さ*/
+  width: 29px;/*長さ*/
   border-radius: 3px;
   background: #555;
   display: block;

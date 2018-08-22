@@ -130,9 +130,33 @@ header {
   background-color: #dcdcdc;
 }
 
+.top-wrapper h3 {
+  margin-left: 20px;
+}
+
+.container p {
+  border-radius:20px 20px 20px 20px;
+  background-color: #D0F5A9;
+  margin-left: 300px;
+  margin-right: 250px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.syatiku big {
+  font-size: 25px; 
+}
+
 table {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.table-company p {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  background-color: #dcdcdc;
 }
 
 .History p {
@@ -199,8 +223,8 @@ margin-left: 10px;
 /*ハンバーガーアイコンをCSSだけで表現*/
 #nav-open span, #nav-open span:before, #nav-open span:after {
   position: absolute;
-  height: 4px;/*線の太さ*/
-  width: 25px;/*長さ*/
+  height: 5px;/*線の太さ*/
+  width: 29px;/*長さ*/
   border-radius: 3px;
   background: #555;
   display: block;

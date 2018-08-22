@@ -189,8 +189,8 @@ header {
 /*ハンバーガーアイコンをCSSだけで表現*/
 #nav-open span, #nav-open span:before, #nav-open span:after {
   position: absolute;
-  height: 4px;/*線の太さ*/
-  width: 25px;/*長さ*/
+  height: 5px;/*線の太さ*/
+  width: 29px;/*長さ*/
   border-radius: 3px;
   background: #555;
   display: block;
