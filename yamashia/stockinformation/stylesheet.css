@@ -26,6 +26,9 @@ header {
   float: left;
   font-size:30px;
   padding:10px;
+}
+
+.header-left a {
   color:white;
 }
 
@@ -149,6 +152,10 @@ header {
   font-size: 32px;
 }
 
+.footer-logo a {
+  color:white;
+}
+
 .footer-list {
   float: right;
 }
@@ -160,6 +167,9 @@ header {
   display: inline-block;
 }
 
+.footer-list a {
+  color:white;
+}
 
 #nav-drawer {
   position: relative;
@@ -239,3 +249,15 @@ header {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);/*中身を表示（右へスライド）*/
   box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+
+.nav-content li  {
+  list-style: none;
+  font-size: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.nav-content a {
+  color:black;
+}
