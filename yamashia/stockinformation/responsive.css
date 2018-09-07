@@ -29,3 +29,11 @@
   .top-wrapper p {
   text-align: center;
   }
+
+  footer {
+    height: 80px;
+  }
+
+  footer-logo {
+    font-size: 20px;
+  }

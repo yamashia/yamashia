@@ -126,10 +126,6 @@ header {
 
 }
 
-.call-contact {
-margin-left: 10px;
-}
-
 .mail-contact {
 margin-left: 10px;
 }
@@ -153,38 +149,39 @@ margin-left: 10px;
   background-color: #dcdcdc;
 }
 
- footer {
-  background-color: #BDBDBD;
-  color: #fff;
-  position: fixed;
-  width: 100%;
-  height: 120px;
-  padding: 40px;
-  bottom:0;
+footer {
+ background-color: #BDBDBD;
+ color: #fff;
+ position: fixed;
+ width: 100%;
+ height: 100px;
+ padding: 30px;
+ bottom:0;
 }
 
 .footer-logo {
-  float: left;
-  font-size: 32px;
+ float: left;
+ font-size: 32px;
 }
 
 .footer-logo a {
-  color:white;
+ color:white;
 }
 
 .footer-list {
-  float: right;
+ float: right;
 }
 
 .footer-list li {
-  padding-bottom: 20px;
-  margin: 0 10px;
-  list-style: none;
-  display: inline-block;
+ padding-bottom: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
+ list-style: none;
+ display: inline-block;
 }
 
 .footer-list a {
-  color:white;
+ color:white;
 }
 
 #nav-drawer {
@@ -245,7 +242,7 @@ margin-left: 10px;
   top: 0;
   left: 0;
   z-index: 9999;/*最前面に*/
-  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  width: 70%;/*右側に隙間を作る（閉じるカバーを表示）*/
   max-width: 330px;/*最大幅（調整してください）*/
   height: 100%;
   background: #fff;/*背景色*/
