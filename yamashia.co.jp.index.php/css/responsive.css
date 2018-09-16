@@ -1,0 +1,47 @@
+
+@media all and (max-width: 1000px) {
+ .top-wrapper p {
+    font-size: 35px;
+  }
+
+  .header-right {
+   width: 100%;
+   }
+
+  .menu{
+  display: none;
+  }
+
+  .footer-list {
+  display: none;
+  }
+
+  #nav-open {
+  display:block;
+  position: absolute;
+  right: 30px;
+    }
+
+    #nav-content {
+      width: 60%;/*右側に隙間を作る（閉じるカバーを表示）*/
+      max-width: 240px;/*最大幅（調整してください）*/
+
+    }
+
+    footer {
+      height: 70px;
+      padding: 15px;
+    }
+
+    footer-logo {
+      font-size: 20px;
+    }
+
+
+@media screen and (min-width:480px) and (max-width: 768px){
+ .header-left {
+ font-size: 30px;
+ }
+  .top-wrapper p {
+  text-align: center;
+  }
