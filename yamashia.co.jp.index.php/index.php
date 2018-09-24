@@ -9,39 +9,42 @@
   </head>
   <body>
   <header>
-        <div  class="header-left"><a href="index.php">株式会社ヤマシア</a></div>
-        <div id class="header-right">
-        <div id class="menu">
-		<ul>
-   <li><a href="index.php">ホーム</a></li>
-   <li><a href="BuisinessInfo/BuisinessInfo.php">事業案内</a>
-		<ul>
-   <li><a href="BuisinessInfo/BuisinessInfo.php">案件支援</a></li>
-   <li><a href="BuisinessInfo/BuisinessInfo.php">案件受託</a></li>
+    <div  class="header-left"><a href="index.php">株式会社ヤマシア</a></div>
+    <div id class="header-right">
+    <div id class="menu">
+	  <ul>
+      <li><a href="index.php">ホーム</a></li>
+      <li><a href="BuisinessInfo/BuisinessInfo.php">事業案内</a>
+	    <ul>
+        <li><a href="BuisinessInfo/BuisinessInfo.php">案件支援</a></li>
+        <li><a href="BuisinessInfo/BuisinessInfo.php">案件受託</a></li>
 	    </ul>
-   </li>
-   <li><a href="CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
-   <li><a href="contact/contact.php">お問い合わせ</a></li>
-	</ul>
+      </li>
+      <li><a href="CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
+      <li><a href="contact/contact.php">お問い合わせ</a></li>
+	  </ul>
 	</div>
-  </div>
+    </div>
   <div id="nav-drawer">
-       <input id="nav-input" type="checkbox" class="nav-unshown">
-       <label id="nav-open" for="nav-input"><span></span></label>
-       <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-       <div id="nav-content" class="nav-content">
-         <ul>
-         <li><a href="index.php">ホーム</a></li>
-         <li><a href="BuisinessInfo/BuisinessInfo.php">事業案内</a>
-         <li><a href="CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
-         <li><a href="contact/contact.php">お問い合わせ</a></li>
-         </ul></div>
-</div>
-    </header>
-
-	<div class="top-wrapper">
-        <p>やましあ</p>
-	</div>
+    <input id="nav-input" type="checkbox" class="nav-unshown">
+    <label id="nav-open" for="nav-input"><span></span></label>
+    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+    <div id="nav-content" class="nav-content">
+      <ul><li><a href="index.php">ホーム</a></li>
+      <li><a href="BuisinessInfo/BuisinessInfo.php">事業案内</a>
+        <li><a href="CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
+        <li><a href="contact/contact.php">お問い合わせ</a></li>
+      </ul></div>
+    </div>
+  </div>
+  </header>
+    <div class="top-wrapper">
+    <div style="background: url(katakataS.png);">
+      <p>　</p>
+      <p>やましあ</p>
+      <p>　</p>
+    </div>
+    </div>
   </body>
 
   <footer>
