@@ -1,8 +1,8 @@
 
 @media all and (max-width: 1000px) {
- .top-wrapper p {
-    font-size: 35px;
-  }
+ .tpo-wrapper {
+   width: 100%;
+ }
 
   .header-right {
    width: 100%;
@@ -11,6 +11,18 @@
   .menu{
   display: none;
   }
+
+  .main {
+    min-width: inherit;
+  }
+
+  .form-title {
+   font-size: 25px;
+ }
+
+ input[type="text"] {
+   width: 60%;
+ }
 
   .footer-list {
   display: none;
@@ -28,6 +40,10 @@
 
     }
 
+.contact-title {
+  font-size: 20px;
+}
+
     footer {
       height: 70px;
       padding: 15px;
@@ -36,11 +52,10 @@
     footer-logo {
       font-size: 20px;
     }
+}
 
 @media screen and (min-width:480px) and (max-width: 768px){
  .header-left {
  font-size: 25px;
  }
-  .top-wrapper p {
-  text-align: center;
-  }
+}

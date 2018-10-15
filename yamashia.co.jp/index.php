@@ -39,11 +39,7 @@
   </div>
   </header>
     <div class="top-wrapper">
-    <div style="background: url(katakataS.png);">
-      <p>　</p>
-      <p>やましあ</p>
-      <p>　</p>
-    </div>
+      <p>やましあ</p>  
     </div>
   </body>
 

@@ -36,7 +36,7 @@
     footer-logo {
       font-size: 20px;
     }
-
+}
 
 @media screen and (min-width:480px) and (max-width: 768px){
  .header-left {
@@ -45,3 +45,4 @@
   .top-wrapper p {
   text-align: center;
   }
+}

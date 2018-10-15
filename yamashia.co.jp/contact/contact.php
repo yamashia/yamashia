@@ -13,7 +13,7 @@
     <div id class="header-right">
     <div id class="menu">
 <ul>
-<li><a href="../index.php">ホーム</a></li>
+<li><a href="../index.html">ホーム</a></li>
 <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a>
 <ul>
 <li><a href="../BuisinessInfo/BuisinessInfo.php">案件支援</a></li>
@@ -38,11 +38,11 @@
          </ul></div>
     </header>
 	<div class="top-wrapper">
-  <p> お問い合わせ</p>
+  <p class="contact-wrapper"> お問い合わせ</p>
 <div class="mail-contact">
   <h2> ・メールでのお問い合わせ</h2>
   <h4>  お問い合わせにつきましては、下記リンクよりメールにてお問い合わせください</h4>
-  <h4>  kenichi.yamaguchi@yamashia.co.jp</h4>
+  <h4>  qyama2003@gmail.com</h4>
 </div>
 <div class="line-contact">
   <h2> ・LINEでのお問い合わせ</h2>
@@ -53,6 +53,50 @@
   <h2> ・採用についてのお問い合わせ</h2>
   <h4> 新卒／中途退学問わず受け付けております。詳しくは弊社までお問い合わせください。</h4>
   </div>
+
+  <div class="main">
+    <div class="contact-form">
+      <div class="form-title">お問い合わせ</div>
+      <form method="post" action="Confirmation.php">
+        <div class="form-item">名前</div>
+        <input type="text" name="name">
+        <div class="form-item">メールアドレス</div>
+        <input type="text" name="email">
+
+
+        <div class="form-item">年齢</div>
+        <select name="age">
+          <option value="未選択">選択してください</option>
+          <!-- for文を用いて6歳から100歳までをoptionで選べるようにしましょう -->
+          <?php
+            for ($i = 16; $i <= 100; $i++) {
+              echo "<option value='{$i}'>{$i}</option>";
+            }
+          ?>
+        </select>
+
+        <div class="form-item">お問い合わせの種類</div>
+        <?php
+          $types = array('採用に関するお問い合わせ','その他');
+         ?>
+        <!-- この下にselectタグを書いていきましょう -->
+        <select name="category">
+          <option value="未選択">選択してください</option>
+           <?php
+             foreach ($types as $type) {
+              echo "<option value='{$type}'>{$type}</option>";
+             }
+           ?>
+        </select>
+
+        <div class="form-item">お問い合わせ内容</div>
+        <textarea name="body"></textarea>
+
+        <input type="submit" value="確認">
+      </form>
+    </div>
+  </div>
+
   </body>
 
   <footer>

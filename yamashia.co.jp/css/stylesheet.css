@@ -4,7 +4,10 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: "Hiragino Kaku Gothic ProN";
+  background-image: url("../katakataS.png");
+  background-size: contain;
 }
 
 a {
@@ -102,24 +105,13 @@ header {
 
 
 .top-wrapper {
-  padding: 0px 0 0px 0;
-  background-color: white ;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-
-  /* コンテンツ部分の高さが画面に収まらない場合はコンテンツの高さに合わせる*/
-  height: auto !important;
-
-  /* コンテンツ部分の高さが画面より低い場合は画面の高さに合わせる*/
-  height: 100%;
-  min-height: 100%;
 }
 
 .top-wrapper p {
   color: black;
   text-align: center;
   font-size: 120px;
+margin-top: 250px;
 }
 
  footer {
