@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <?php
-    // フォームのボタンが押されたら
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // フォームから送信されたデータを各変数に格納
-        $name = $_POST["name"];
-        $email = $_POST["email"];
-        $age = $_POST["age"];
-        $category = $_POST["category"];
-        $body  = $_POST["body"];
-    }
-?>
+  // フォームのボタンが押されたら
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // フォームから送信されたデータを各変数に格納
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $age = $_POST["age"];
+  $category = $_POST["category"];
+  $body  = $_POST["body"];
+  }  ?>
+
+  <?php
+  $dsn = 'mysql:dbname=sddb0040218534;host=sddb0040218534.cgidb';
+  $username = 'sddbMTI5NTE3';
+  $password = '#R1e2p3o4';
+  $options = array(
+   PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
+  );
+  $dbh = new PDO($dsn, $username, $password, $options);
+
+  $sql = 'INSERT INTO お問い合わせ (name,email,age,category,body)
+     VALUES ("'.$name.'","'.$email.'","'.$age.'","'.$category.'","'.$body.'")';
+  $stmt = $dbh->prepare($sql);
+  $stmt->execute();
+  $dbh = null;
+  ?>
+
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -79,8 +96,9 @@
                  </div>
                  <div>
                      <label>・お問い合わせ内容</label>
-                     <p><?php echo ($body); ?></p>
-                 </div>
+                     <p><?php echo $body; ?></p>
+                   </div>
+
          <input type="button" value="修正" onclick="history.back()">
          <input type="submit" value="送信">
      </form>
