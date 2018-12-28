@@ -77,7 +77,7 @@
 
         <div class="form-item">お問い合わせの種類</div>
         <?php
-          $types = array('採用に関するお問い合わせ','その他');
+          $types = array('採用に関するお問い合わせ','仕事に関するお問い合わせ','その他');
          ?>
         <!-- この下にselectタグを書いていきましょう -->
         <select name="category">
@@ -90,7 +90,7 @@
         </select>
 
         <div class="form-item">お問い合わせ内容</div>
-        <textarea name="body"></textarea>
+        <textarea name="content"></textarea>
 
         <input type="submit" value="確認">
       </form>

@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 
 <?php
+	// UNIX TIMESTAMPを取得
+	$timestamp = time() ;
+	// date()で日時を出力
+	echo date( "Y/m/d" , $timestamp ) ;
+	// 改行
+	echo "<br><br>" ;
+	// 第2引数は省略できる = time()を指定したのと同じ
+	echo date( "Y/m/d" ) ;
 $name = $_POST["name"];
 $email = $_POST["email"];
 $age = $_POST["age"];
 $category = $_POST["category"];
-$body  = $_POST["body"];
+$content  = $_POST["content"];
 $dsn = 'mysql:dbname=sddb0040218534;host=sddb0040218534.cgidb';
 $username = 'sddbMTI5NTE3';
 $password = '#R1e2p3o4';
@@ -14,8 +22,8 @@ $options = array(
 );
 $dbh = new PDO($dsn, $username, $password, $options);
 
-$sql = 'INSERT INTO お問い合わせ (name,email,age,category,body)
-   VALUES ("'.$name.'","'.$email.'","'.$age.'","'.$category.'","'.$body.'")';
+$sql = 'INSERT INTO お問い合わせ (name,email,age,category,content)
+   VALUES ("'.$name.'","'.$email.'","'.$age.'","'.$category.'","'.$content.'")';
 $stmt = $dbh->prepare($sql);
 $stmt->execute();
 $dbh = null;

@@ -5,7 +5,7 @@
   $email = $_POST["email"];
   $age = $_POST["age"];
   $category = $_POST["category"];
-  $body  = $_POST["body"];
+  $content  = $_POST["content"];
   }
   ?>
 <html>
@@ -55,7 +55,7 @@
              <input type="hidden" name="email" value="<?php echo $email; ?>">
              <input type="hidden" name="age" value="<?php echo $age; ?>">
              <input type="hidden" name="category" value="<?php echo $category; ?>">
-             <input type="hidden" name="body" value="<?php echo $body; ?>">
+             <input type="hidden" name="content" value="<?php echo $content; ?>">
              <h1 class="contact-title">お問い合わせ<br>内容確認</h1>
              <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信」ボタンを押して下さい。</p>
              <div>
@@ -77,7 +77,7 @@
                  </div>
                  <div>
                      <label>・お問い合わせ内容</label>
-                     <p><?php echo $body; ?></p>
+                     <p><?php echo $content; ?></p>
                    </div>
 
          <input type="button" value="修正" onclick="history.back()">
