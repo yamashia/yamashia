@@ -1,24 +1,4 @@
 <!DOCTYPE html>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>
-(function($) {
-    $(function() {
-        var $header = $('#top-head');
-        // Nav Fixed
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 350) {
-                $header.addClass('fixed');
-            } else {
-                $header.removeClass('fixed');
-            }
-        });
-        // Nav Toggle Button
-        $('#nav-toggle').click(function(){
-            $header.toggleClass('open');
-        });
-    });
-})(jQuery);
-</script>
 <html>
   <head>
     <meta charset="utf-8">
@@ -26,6 +6,43 @@
     <title>株式会社ヤマシア</title>
     <link rel="stylesheet" href="stylesheet.css">
   	<link rel="stylesheet" href="responsive.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+    (function($) {
+        $(function() {
+            var $header = $('#top-head');
+            // Nav Fixed
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 350) {
+                    $header.addClass('fixed');
+                } else {
+                    $header.removeClass('fixed');
+                }
+            });
+            // Nav Toggle Button
+            $('#nav-toggle').click(function(){
+                $header.toggleClass('open');
+            });
+        });
+    })(jQuery);
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      var pagetop = $('.pagetop');
+        $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+                pagetop.fadeIn();
+           } else {
+                pagetop.fadeOut();
+                }
+           });
+           pagetop.click(function () {
+               $('body, html').animate({ scrollTop: 0 }, 500);
+                  return false;
+       });
+    });
+    </script>
   </head>
   <body>
     <header id="top-head">
@@ -59,12 +76,12 @@
           <input type="checkbox" id="label2">
           <div class="hidden_show">
             <p class="syatiku">
-                    <br>『進撃の社畜』 平日　乗り越えて　休む　意思を　嗤う　会社　</br>
-                    <br>社畜の安寧　虚偽の休日　死せる土日の　自由を！ </br>　
-                    <br>囚われた　残業は　サービスの奉仕だ </br>
-              　    <br>終電の　その彼方　まぶたに映る　家がー！　</br>
-                    <br>終わらない　労働に　その身を灼きながら </br>
-                    <br>黄昏に　愚痴こぼす　帰んの無理や　</br>
+                  <br>『進撃の社畜』 平日　乗り越えて　休む　意思を　嗤う　会社　</br>
+                  <br>社畜の安寧　虚偽の休日　死せる土日の　自由を！ </br>　
+                  <br>囚われた　残業は　サービスの奉仕だ </br>
+              　  <br>終電の　その彼方　まぶたに映る　家がー！　</br>
+                  <br>終わらない　労働に　その身を灼きながら </br>
+                  <br>黄昏に　愚痴こぼす　帰んの無理や　</br>
             </p>
                 <p class="syatiku">
                   <br>祝日なのになんで仕事行くの？</br>
@@ -108,16 +125,17 @@
 <div class="History2">
 <h3>2016/04/27 世田谷区瀬田に移転</h3>
 </div>
-  </body>
-  <footer>
-   <div class="footer-logo"><a href="../index.php">yamashia</a></div>
-   <div class="footer-list">
-      <ul>
-        <li><a href="../index.php">ホーム</a></li>
-        <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
-        <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
-        <li><a href="../contact/contact.php">お問い合わせ</a></li>
-      </ul>
-    </div>
-  </footer>
+<footer>
+ <div class="footer-logo"><a href="../index.php">yamashia</a></div>
+ <div class="footer-list">
+   <ul>
+      <li><a href="../index.php">ホーム</a></li>
+      <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
+      <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
+      <li><a href="../contact/contact.php">お問い合わせ</a></li>
+   </ul>
+   <p class="pagetop"><a href="#wrap">▲</a></p>
+  </div>
+</footer>
+</body>
 </html>

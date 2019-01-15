@@ -28,26 +28,6 @@ $stmt = $dbh->prepare($sql);
 $stmt->execute();
 $dbh = null;
 ?>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>
-(function($) {
-    $(function() {
-        var $header = $('#top-head');
-        // Nav Fixed
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 350) {
-                $header.addClass('fixed');
-            } else {
-                $header.removeClass('fixed');
-            }
-        });
-        // Nav Toggle Button
-        $('#nav-toggle').click(function(){
-            $header.toggleClass('open');
-        });
-    });
-})(jQuery);
-</script>
 <html>
   <head>
     <meta charset="utf-8">
@@ -55,6 +35,43 @@ $dbh = null;
     <title>株式会社ヤマシア</title>
     <link rel="stylesheet" href="stylesheet.css">
   	<link rel="stylesheet" href="responsive.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+    (function($) {
+        $(function() {
+            var $header = $('#top-head');
+            // Nav Fixed
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 350) {
+                    $header.addClass('fixed');
+                } else {
+                    $header.removeClass('fixed');
+                }
+            });
+            // Nav Toggle Button
+            $('#nav-toggle').click(function(){
+                $header.toggleClass('open');
+            });
+        });
+    })(jQuery);
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      var pagetop = $('.pagetop');
+        $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+                pagetop.fadeIn();
+           } else {
+                pagetop.fadeOut();
+                }
+           });
+           pagetop.click(function () {
+               $('body, html').animate({ scrollTop: 0 }, 500);
+                  return false;
+       });
+    });
+    </script>
   </head>
   <body>
     <header id="top-head">
@@ -79,21 +96,20 @@ $dbh = null;
             </nav>
         </div>
     </header>
-
-    <div class="main">
-        <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
+      <div class="main">
+         <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
       </div>
-</div>
-  </body>
-	<footer>
-	 <div class="footer-logo"><a href="../index.php">yamashia</a></div>
-	 <div class="footer-list">
-			<ul>
-				<li><a href="../index.php">ホーム</a></li>
-				<li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
-				<li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
-				<li><a href="../contact/contact.php">お問い合わせ</a></li>
-			</ul>
-		</div>
-	</footer>
-</html>
+			<footer>
+		   <div class="footer-logo"><a href="../index.php">yamashia</a></div>
+		   <div class="footer-list">
+		     <ul>
+		        <li><a href="../index.php">ホーム</a></li>
+		        <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
+		        <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
+		        <li><a href="../contact/contact.php">お問い合わせ</a></li>
+		     </ul>
+		     <p class="pagetop"><a href="#wrap">▲</a></p>
+		    </div>
+		  </footer>
+		  </body>
+		</html>
