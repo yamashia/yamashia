@@ -71,7 +71,7 @@
     <div class="top-wrapper">
       <p>やましあ</p>
     </div>
-    
+
   <footer>
    <div class="footer-logo"><a href="../index.php">yamashia</a></div>
    <div class="footer-list">

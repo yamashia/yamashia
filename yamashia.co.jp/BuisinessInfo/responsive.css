@@ -93,7 +93,7 @@
            -webkit-transform: translateY(556px);
            transform: translateY(556px);
        }
-  .footer-list {
+  .footer-list li {
   display: none;
 }
 }
