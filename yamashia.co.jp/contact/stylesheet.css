@@ -120,7 +120,7 @@ header {
     position: absolute;
     height: 4px;
     width: 100%;
-    background: #333;
+    background: #fefefe;
     left: 0;
     -webkit-transition: .35s ease-in-out;
     -moz-transition: .35s ease-in-out;
@@ -230,15 +230,30 @@ footer {
 
 .mail-contact {
 padding-left: 10px;
+width: 80%;
+margin: 60px auto;
+padding: 50px;
+background-color: #F5F5F5;
+color: #333;
 }
 
 .line-contact {
 padding-left: 10px;
+width: 80%;
+margin: 60px auto;
+padding: 50px;
+background-color: #F5F5F5;
+color: #333;
 }
 
 
 .contact {
 padding-left: 10px;
+width: 80%;
+margin: 60px auto;
+padding: 50px;
+background-color: #F5F5F5;
+color: #333;
 }
 
 .contact-wrapper {

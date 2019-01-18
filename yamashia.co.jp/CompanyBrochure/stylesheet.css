@@ -120,7 +120,7 @@ header {
     position: absolute;
     height: 4px;
     width: 100%;
-    background: #333;
+    background: #fefefe;
     left: 0;
     -webkit-transition: .35s ease-in-out;
     -moz-transition: .35s ease-in-out;
@@ -232,6 +232,11 @@ footer {
   font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
 }
 
 .hidden_box input {
@@ -271,6 +276,13 @@ table {
   margin-right: 20px;
 }
 
+.table-company {
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
 .table-company p {
   color: black;
   text-align: center;
@@ -287,9 +299,19 @@ table {
 
 .History h3 {
 padding-left: 10px;
+width: 80%;
+margin: 60px auto;
+padding: 50px;
+background-color: #F5F5F5;
+color: #333;
 }
 
 .History2 h3 {
   padding-left: 10px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
 }
