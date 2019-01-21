@@ -112,14 +112,7 @@
   <h3>※OSは最新版　<br>■Mac 　■Windows</h3>
   <h3>■社内WAN(webサーバーのプロセスありの共有server)へのアップロード／ダウンロードが可能な環境</h3>
 </div>
-<div class="cost">
-  <h2>費用</h2>
-  <h3>各案件ごと相談ください。</h3>
-  <h3>例. サービス開始前、要件定義、UI/UX、コミュニケーション、各支援</h3>
-  <h3>■165万/160h※超過分は別途精算</h3>
-  <h3>上記の費用の人員は以下となります。</h3>
-  <h3>■人員 <br>コンサルタント:1名<br>アシスタント:１名</h3>
-</div>
+
 
   <footer>
    <div class="footer-logo"><a href="../index.php">yamashia</a></div>
