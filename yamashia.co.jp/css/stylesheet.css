@@ -143,12 +143,58 @@ nav ul li a {
   padding-right: 5px;
 }
 
-.top-wrapper p {
-  color: blue;
-  text-align: center;
-  font-size: 120px;
-  margin-top: 250px;
+.top-wrapper  {
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
 }
+
+.top-main {
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.main {
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.one-main {
+
+}
+
+.two-main {
+
+}
+
+.three-main {
+
+}
+
+.environment {
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.cost {
+  width: 80%;
+  margin: 60px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
 
 footer {
  background-color: #BDBDBD;
