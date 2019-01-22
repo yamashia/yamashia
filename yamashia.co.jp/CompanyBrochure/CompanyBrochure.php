@@ -121,8 +121,6 @@
   <div class="History">
     <p>沿革</p>
 <h3>2013/02/05 江東区富岡に設立</h3>
-</div>
-<div class="History2">
 <h3>2016/04/27 世田谷区瀬田に移転</h3>
 </div>
 <footer>

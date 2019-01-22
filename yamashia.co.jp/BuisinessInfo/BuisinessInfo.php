@@ -70,6 +70,7 @@
 
 	<div class="top-wrapper">
         <p>事業案内</p>
+        </div>
   <div class="Case">
 <h2>案件支援（IT支援）</h2>
 <h5>IT支援を実施します。</h5>
@@ -82,7 +83,7 @@
     <h2>案件受託</h2>
     <h4>準備中～</h4>
   </div>
-  </div>
+
   <footer>
    <div class="footer-logo"><a href="../index.php">yamashia</a></div>
    <div class="footer-list">

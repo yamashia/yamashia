@@ -143,12 +143,6 @@ nav ul li a {
   padding-right: 5px;
 }
 
-.top-wrapper p {
-  color: blue;
-  text-align: center;
-  font-size: 120px;
-margin-top: 250px;
-}
 
 footer {
  background-color: #BDBDBD;
@@ -221,10 +215,15 @@ footer {
 
 
 .top-wrapper p {
-  color: black;
-  font-size: 35px;
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;	/*上下、左右への余白*/
+  font-size: 16px;	/*文字サイズ*/
+  background: #191919;	/*背景色（古いブラウザ用）*/
+  background: linear-gradient(#5e5e5e, #3c3c3c 49%, #191919 50%);		/*グラデーション*/
+  border-bottom: 3px solid #2799b5;		/*枠線の幅、線種、色*/
+  color: #fff;	/*文字色*/
   text-align: center;
-  background-color: #dcdcdc;
   margin-top: 200px;
 }
 
@@ -237,6 +236,13 @@ footer {
   color: #333;
 }
 
+.Case h2 {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+}
 .Case-Entrusted {
   padding-left: : 10px;
   width: 80%;
@@ -246,6 +252,13 @@ footer {
   color: #333;
 }
 
+.Case-Entrusted h2 {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+}
+
 .Case-Entrusted h4 {
-  padding-bottom: 120px;
 }

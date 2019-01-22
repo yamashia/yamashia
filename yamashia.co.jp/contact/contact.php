@@ -69,7 +69,9 @@
     </header>
 
 	<div class="top-wrapper">
-  <p class="contact-wrapper"> お問い合わせ</p>
+  <p> お問い合わせ</p>
+  </div>
+  <div class="contact-wrapper">
 <div class="mail-contact">
   <h2> ・メールでのお問い合わせ</h2>
   <h4>  お問い合わせにつきましては、下記リンクよりメールにてお問い合わせください</h4>
@@ -84,6 +86,7 @@
   <h2> ・採用についてのお問い合わせ</h2>
   <h4> 新卒／中途退学問わず受け付けております。詳しくは弊社までお問い合わせください。</h4>
   </div>
+</div>
 
   <div class="main">
     <div class="contact-form">

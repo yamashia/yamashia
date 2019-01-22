@@ -151,6 +151,14 @@ nav ul li a {
   color: #333;
 }
 
+.top-wrapper p {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+}
+
 .top-main {
   width: 80%;
   margin: 60px auto;
@@ -159,12 +167,28 @@ nav ul li a {
   color: #333;
 }
 
+.top-main p {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+}
+
 .main {
   width: 80%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
   color: #333;
+}
+
+.main p {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
 }
 
 .one-main {
@@ -187,6 +211,14 @@ nav ul li a {
   color: #333;
 }
 
+.environment p {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+}
+
 .cost {
   width: 80%;
   margin: 60px auto;
@@ -195,6 +227,13 @@ nav ul li a {
   color: #333;
 }
 
+.cost p {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+}
 
 footer {
  background-color: #BDBDBD;
