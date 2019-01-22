@@ -48,7 +48,7 @@
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
-                <h1 class="logo">株式会社ヤマシア</h1>
+                <a class="logo" href="../index.php">株式会社ヤマシア</a>
                 <div id="nav-toggle">
                     <div>
                         <span></span>
@@ -67,12 +67,6 @@
             </nav>
         </div>
     </header>
-
-    <div class="top-wrapper">
-      <p>会社の理念</p>
-      <h2>・御社利益のためのITの支援をいたします</h2>
-      <h2>・臨機に時々の最善を尽くします</h2>
-    </div>
    <div class="top-main">
      <p>当社IT支援のつよみ</p>
      <h2>1.公平かつ円滑な支援を行います</h2>

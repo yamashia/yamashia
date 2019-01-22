@@ -48,7 +48,7 @@
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
-                <h1 class="logo">株式会社ヤマシア</h1>
+                <a class="logo" href="../index.php">株式会社ヤマシア</a>
                 <div id="nav-toggle">
                     <div>
                         <span></span>

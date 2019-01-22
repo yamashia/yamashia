@@ -63,6 +63,7 @@ header {
 }
 #top-head .logo {
     float: left;
+    left: 5px;
     font-size: 36px;
 }
 #global-nav ul {
@@ -224,12 +225,12 @@ footer {
   border-bottom: 3px solid #2799b5;		/*枠線の幅、線種、色*/
   color: #fff;	/*文字色*/
   text-align: center;
-  margin-top: 200px;
+  margin-top: 120px;
 }
 
 .Case {
   padding-left: 10px;
-  width: 80%;
+  width: 90%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
@@ -240,12 +241,12 @@ footer {
   clear: both;
   margin-bottom: 20px;
   padding: 10px 15px;
-  font-size: 24px;
+  font-size: 20px;
   border-bottom: 3px solid #A9F5F2;
 }
 .Case-Entrusted {
   padding-left: : 10px;
-  width: 80%;
+  width: 90%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
@@ -256,7 +257,7 @@ footer {
   clear: both;
   margin-bottom: 20px;
   padding: 10px 15px;
-  font-size: 24px;
+  font-size: 20px;
   border-bottom: 3px solid #A9F5F2;
 }
 

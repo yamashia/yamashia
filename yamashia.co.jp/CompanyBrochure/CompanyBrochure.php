@@ -48,7 +48,7 @@
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
-                <h1 class="logo">株式会社ヤマシア</h1>
+                <a class="logo" href="../index.php">株式会社ヤマシア</a>
                 <div id="nav-toggle">
                     <div>
                         <span></span>
@@ -99,6 +99,9 @@
       </div>
   <div class="table-company">
     <p>会社概要</p>
+    <h2>会社の理念</h2>
+    <h3>御社利益のためのITの支援をいたします</h3>
+    <h3>臨機に時々の最善を尽くします</h3>
     <table border=1 cellpadding=7 cellspacing=2>
   <tr>
     <td>社名</td>
@@ -120,8 +123,8 @@
   </div>
   <div class="History">
     <p>沿革</p>
-<h3>2013/02/05 江東区富岡に設立</h3>
-<h3>2016/04/27 世田谷区瀬田に移転</h3>
+<h3>2013/02/05 <br>江東区富岡に設立</h3>
+<h3>2016/04/27 <br>世田谷区瀬田に移転</h3>
 </div>
 <footer>
  <div class="footer-logo"><a href="../index.php">yamashia</a></div>

@@ -63,6 +63,7 @@ header {
 }
 #top-head .logo {
     float: left;
+    left: 5px;
     font-size: 36px;
 }
 #global-nav ul {
@@ -207,7 +208,7 @@ footer {
     font-size: 12px;
     text-decoration: none;
     padding:5px 10px;
-	filter:alpha(opacity=50);
+	  filter:alpha(opacity=50);
     -moz-opacity: 0.5;
     opacity: 0.5;
 }
@@ -222,23 +223,23 @@ footer {
   border-bottom: 3px solid #2799b5;		/*枠線の幅、線種、色*/
   color: #fff;	/*文字色*/
   text-align: center;
-  margin-top: 200px;
-}
-
-.top-wrapper h2 {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 10px 15px;
-  font-size: 24px;
-  border-bottom: 3px solid #A9F5F2;
+  margin-top: 120px;
 }
 
 .contact-wrapper {
-  width: 80%;
+  width: 90%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
   color: #333;
+}
+
+.contact-wrapper h2 {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 3px;
+  font-size: 17px;
+  border-bottom: 3px solid #A9F5F2;
 }
 
 .mail-contact {
@@ -265,7 +266,7 @@ form {
 }
 
 .contact-form {
-  width: 80%;
+  width: 90%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
@@ -352,6 +353,14 @@ textarea {
 .display-contact {
   width: 70%;
   margin: 30px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.thanks-message {
+  width: 80%;
+  margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
   color: #333;

@@ -48,7 +48,7 @@
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
-                <h1 class="logo">株式会社ヤマシア</h1>
+                <a class="logo" href="../index.php">株式会社ヤマシア</a>
                 <div id="nav-toggle">
                     <div>
                         <span></span>
@@ -69,21 +69,21 @@
     </header>
 
 	<div class="top-wrapper">
-  <p> お問い合わせ</p>
+  <p>お問い合わせ</p>
   </div>
   <div class="contact-wrapper">
 <div class="mail-contact">
-  <h2> ・メールでのお問い合わせ</h2>
+  <h2>メールでのお問い合わせ</h2>
   <h4>  お問い合わせにつきましては、下記リンクよりメールにてお問い合わせください</h4>
   <h4>  qyama2003@gmail.com</h4>
 </div>
 <div class="line-contact">
-  <h2> ・LINEでのお問い合わせ</h2>
+  <h2>LINEでのお問い合わせ</h2>
+  <img src="../contact/line_qr.png" width="150px" height="150px">
   <h4>　LINE ID: yamashia</h4>
-  <img src="../contact/line_qr.png" width="200px" height="200px">
 </div>
 <div class="contact">
-  <h2> ・採用についてのお問い合わせ</h2>
+  <h2>採用についてのお問い合わせ</h2>
   <h4> 新卒／中途退学問わず受け付けております。詳しくは弊社までお問い合わせください。</h4>
   </div>
 </div>

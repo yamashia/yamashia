@@ -63,6 +63,7 @@ header {
 }
 #top-head .logo {
     float: left;
+    left: 5px;
     font-size: 36px;
 }
 #global-nav ul {
@@ -223,14 +224,15 @@ footer {
 	border-bottom: 3px solid #2799b5;		/*枠線の幅、線種、色*/
 	color: #fff;	/*文字色*/
   text-align: center;
-  margin-top: 200px;
+  margin-top: 120px;
 }
 
 .hidden_box {
   font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  width: 80%;
+  text-align: center;
+  width: 90%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
@@ -270,12 +272,13 @@ footer {
 }
 
 table {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .table-company {
-  width: 80%;
+  width: 90%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
@@ -289,9 +292,19 @@ table {
   border-bottom: 3px solid #A9F5F2;
 }
 
+.table-company h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.table-company h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
 .History {
   padding-left: 10px;
-  width: 80%;
+  width: 90%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
