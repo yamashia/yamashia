@@ -100,7 +100,7 @@ $dbh = null;
          <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
       </div>
 			<footer>
-		   <div class="footer-logo"><a href="../index.php">yamashia</a></div>
+		   <div class="footer-logo"><a href="../index.php"><img src="../yamashialogo.png"　width="70px" height="40px"></a></div>
 		   <div class="footer-list">
 		     <ul>
 		        <li><a href="../index.php">ホーム</a></li>

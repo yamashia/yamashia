@@ -5,7 +5,7 @@
 html {
   position: relative;
   min-height: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   box-sizing: border-box;
 }
 
@@ -209,20 +209,16 @@ footer {
  background-color: #BDBDBD;
  position: absolute;
  width: 100%;
- height: 100px;
+ height: 80px;
  left: 0;
  bottom: 0;
 }
 
 .footer-logo {
- float: left;
- margin-top: 15px;
- margin-left: 20px;
-}
-
-.footer-logo a {
- color:white;
- font-size: 32px;
+  float: left;
+  padding-top: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 .footer-list {

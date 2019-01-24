@@ -127,7 +127,7 @@
 <h3>2016/04/27 <br>世田谷区瀬田に移転</h3>
 </div>
 <footer>
- <div class="footer-logo"><a href="../index.php">yamashia</a></div>
+ <div class="footer-logo"><a href="../index.php"><img src="../yamashialogo.png"　width="70px" height="40px"></a></div>
  <div class="footer-list">
    <ul>
       <li><a href="../index.php">ホーム</a></li>
