@@ -13,8 +13,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>株式会社ヤマシア</title>
-      <link rel="stylesheet" href="stylesheet.css">
-    	<link rel="stylesheet" href="responsive.css">
+      <link rel="stylesheet" href="../css/stylesheet.css">
+    	<link rel="stylesheet" href="../css/responsive.css">
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
       <script>
       (function($) {
@@ -76,8 +76,6 @@
               </nav>
           </div>
       </header>
-
-    <div class="main">
     <div class="contact-form">
       <form action="thanks.php" method="post">
              <input type="hidden" name="name" value="<?php echo $name; ?>">
@@ -87,7 +85,7 @@
              <input type="hidden" name="content" value="<?php echo $content; ?>">
              <h1 class="contact-title">お問い合わせ<br>内容確認</h1>
              <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信」ボタンを押して下さい。</p>
-             <div>
+
                  <div>
                      <label>・名前</label>
                      <p><?php echo $name; ?></p>
@@ -113,9 +111,10 @@
          <input type="submit" value="送信">
      </form>
  </div>
-</div>
 <footer>
- <div class="footer-logo"><a href="../index.php"><img src="../yamashialogo.png"　width="70px" height="40px"></a></div>
+  <div class="footer-logo">
+    <a href="../index.php"><img src="../images/yamashialogo.png" alt=""　width="70px" height="40px"></a>
+  </div>
  <div class="footer-list">
    <ul>
       <li><a href="../index.php">ホーム</a></li>

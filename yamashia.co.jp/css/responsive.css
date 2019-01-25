@@ -94,4 +94,27 @@
   .footer-list li {
   display: none;
   }　
+
+/*contact*/
+  .main {
+    min-width: inherit;
+  }
+
+  .form-title {
+   font-size: 25px;
+  }
+
+  input[type="text"] {
+   width: 60%;
+  }
+
+  .contact-title {
+  font-size: 20px;
+  }
+
+/*CompanyBrochure*/
+
+
+/*BuisinessInfo*/
+
 }

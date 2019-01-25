@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>株式会社ヤマシア</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
-  	<link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+  	<link rel="stylesheet" href="../css/responsive.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>
     (function($) {
@@ -69,7 +69,9 @@
     </header>
 
   <footer>
-   <div class="footer-logo"><a href="../index.php"><img src="../yamashialogo.png"　width="70px" height="40px"></a></div>
+   <div class="footer-logo">
+     <a href="../index.php"><img src="../images/yamashialogo.png" alt=""　width="70px" height="40px"></a>
+   </div>
    <div class="footer-list">
      <ul>
         <li><a href="../index.php">ホーム</a></li>

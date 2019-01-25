@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>株式会社ヤマシア</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  	<link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+  	<link rel="stylesheet" href="../css/responsive.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>
     (function($) {
@@ -79,7 +79,7 @@
 </div>
 <div class="line-contact">
   <h2>LINEでのお問い合わせ</h2>
-  <img src="../contact/line_qr.png" width="150px" height="150px">
+  <img src="../images/line_qr.png" width="150px" height="150px">
   <h4>　LINE ID: yamashia</h4>
 </div>
 <div class="contact">
@@ -88,7 +88,6 @@
   </div>
 </div>
 
-  <div class="main">
     <div class="contact-form">
       <div class="form-title">お問い合わせ</div>
       <form method="post" action="Confirmation.php">
@@ -113,7 +112,7 @@
         <?php
           $types = array('採用に関するお問い合わせ','仕事に関するお問い合わせ','その他');
          ?>
-        <!-- この下にselectタグを書いていきましょう -->
+
         <select name="category">
           <option value="未選択">選択してください</option>
            <?php
@@ -129,9 +128,10 @@
         <input type="submit" value="確認">
       </form>
     </div>
-  </div>
   <footer>
-   <div class="footer-logo"><a href="../index.php"><img src="../yamashialogo.png"　width="70px" height="40px"></a></div>
+    <div class="footer-logo">
+      <a href="../index.php"><img src="../images/yamashialogo.png" alt=""　width="70px" height="40px"></a>
+    </div>
    <div class="footer-list">
      <ul>
         <li><a href="../index.php">ホーム</a></li>
