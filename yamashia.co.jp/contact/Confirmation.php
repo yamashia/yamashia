@@ -1,58 +1,49 @@
 <!DOCTYPE html>
-<?php
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = $_POST["name"];
-  $email = $_POST["email"];
-  $age = $_POST["age"];
-  $category = $_POST["category"];
-  $content  = $_POST["content"];
-  }
-  ?>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>株式会社ヤマシア</title>
-      <link rel="stylesheet" href="../css/stylesheet.css">
-    	<link rel="stylesheet" href="../css/responsive.css">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-      <script>
-      (function($) {
-          $(function() {
-              var $header = $('#top-head');
-              // Nav Fixed
-              $(window).scroll(function() {
-                  if ($(window).scrollTop() > 350) {
-                      $header.addClass('fixed');
-                  } else {
-                      $header.removeClass('fixed');
-                  }
-              });
-              // Nav Toggle Button
-              $('#nav-toggle').click(function(){
-                  $header.toggleClass('open');
-              });
-          });
-      })(jQuery);
-      </script>
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-      <script>
-      $(document).ready(function() {
-        var pagetop = $('.pagetop');
-          $(window).scroll(function () {
-             if ($(this).scrollTop() > 100) {
-                  pagetop.fadeIn();
-             } else {
-                  pagetop.fadeOut();
-                  }
-             });
-             pagetop.click(function () {
-                 $('body, html').animate({ scrollTop: 0 }, 500);
-                    return false;
-         });
-      });
-      </script>
-    </head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社ヤマシア</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+  	<link rel="stylesheet" href="../css/responsive.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+    (function($) {
+        $(function() {
+            var $header = $('#top-head');
+            // Nav Fixed
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 350) {
+                    $header.addClass('fixed');
+                } else {
+                    $header.removeClass('fixed');
+                }
+            });
+            // Nav Toggle Button
+            $('#nav-toggle').click(function(){
+                $header.toggleClass('open');
+            });
+        });
+    })(jQuery);
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      var pagetop = $('.pagetop');
+        $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+                pagetop.fadeIn();
+           } else {
+                pagetop.fadeOut();
+                }
+           });
+           pagetop.click(function () {
+               $('body, html').animate({ scrollTop: 0 }, 500);
+                  return false;
+       });
+    });
+    </script>
+  </head>
     <body>
       <header id="top-head">
           <div class="inner">

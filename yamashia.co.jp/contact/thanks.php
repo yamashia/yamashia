@@ -1,41 +1,12 @@
 <!DOCTYPE html>
-
-<?php
-	// UNIX TIMESTAMPを取得
-	$timestamp = time() ;
-	// date()で日時を出力
-	echo date( "Y/m/d" , $timestamp ) ;
-	// 改行
-	echo "<br><br>" ;
-	// 第2引数は省略できる = time()を指定したのと同じ
-	echo date( "Y/m/d" ) ;
-$name = $_POST["name"];
-$email = $_POST["email"];
-$age = $_POST["age"];
-$category = $_POST["category"];
-$content  = $_POST["content"];
-$dsn = 'mysql:dbname=sddb0040218534;host=sddb0040218534.cgidb';
-$username = 'sddbMTI5NTE3';
-$password = '#R1e2p3o4';
-$options = array(
- PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
-);
-$dbh = new PDO($dsn, $username, $password, $options);
-
-$sql = 'INSERT INTO お問い合わせ (name,email,age,category,content)
-   VALUES ("'.$name.'","'.$email.'","'.$age.'","'.$category.'","'.$content.'")';
-$stmt = $dbh->prepare($sql);
-$stmt->execute();
-$dbh = null;
-?>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>株式会社ヤマシア</title>
-		<link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
   	<link rel="stylesheet" href="../css/responsive.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
     (function($) {
         $(function() {
@@ -55,8 +26,8 @@ $dbh = null;
         });
     })(jQuery);
     </script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript">
     $(document).ready(function() {
       var pagetop = $('.pagetop');
         $(window).scroll(function () {

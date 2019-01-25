@@ -6,7 +6,7 @@
     <title>株式会社ヤマシア</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
   	<link rel="stylesheet" href="../css/responsive.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
     (function($) {
         $(function() {
@@ -26,8 +26,8 @@
         });
     })(jQuery);
     </script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript">
     $(document).ready(function() {
       var pagetop = $('.pagetop');
         $(window).scroll(function () {
