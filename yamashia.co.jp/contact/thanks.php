@@ -9,40 +9,52 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
     (function($) {
-        $(function() {
-            var $header = $('#top-head');
-            // Nav Fixed
-            $(window).scroll(function() {
-                if ($(window).scrollTop() > 350) {
-                    $header.addClass('fixed');
-                } else {
-                    $header.removeClass('fixed');
-                }
-            });
-            // Nav Toggle Button
-            $('#nav-toggle').click(function(){
-                $header.toggleClass('open');
-            });
+      $(function() {
+          var $header = $('#top-head');
+        // Nav Fixed
+      $(window).scroll(function() {
+          if ($(window).scrollTop() > 350) {
+              $header.addClass('fixed');
+          } else {
+              $header.removeClass('fixed');
+          }
+          });
+        // Nav Toggle Button
+      $('#nav-toggle').click(function(){
+              $header.toggleClass('open');
+          });
         });
     })(jQuery);
     </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-      var pagetop = $('.pagetop');
-        $(window).scroll(function () {
-           if ($(this).scrollTop() > 100) {
+       var pagetop = $('.pagetop');
+       $(window).scroll(function () {
+         if ($(this).scrollTop() > 100) {
                 pagetop.fadeIn();
-           } else {
+         } else {
                 pagetop.fadeOut();
                 }
            });
            pagetop.click(function () {
                $('body, html').animate({ scrollTop: 0 }, 500);
                   return false;
-       });
+        });
+      });
+      </script>
+      <script>
+      //yamashiarogo
+      $(function() {
+      $('a img').hover(
+        function() {
+      $(this).fadeTo(200, 0.6);
+    },
+        function() {
+      $(this).fadeTo(200, 1.0);
+    }
+    );
     });
-    </script>
+      </script>
   </head>
   <body>
     <header id="top-head">
@@ -67,10 +79,10 @@
             </nav>
         </div>
     </header>
-         <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
+         <div class="thanks-message"><h2>お問い合わせいただきありがとうございます。</h2></div>
 			<footer>
 				<div class="footer-logo">
-		      <a href="../index.php"><img src="../images/yamashialogo.png" alt=""　width="70px" height="40px"></a>
+		      <a href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="70px" height="40px"></a>
 		    </div>
 		   <div class="footer-list">
 		     <ul>

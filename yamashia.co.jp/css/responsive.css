@@ -1,4 +1,4 @@
-@media all and (max-width: 900px) {
+@media all and (max-width: 850px) {
 
  .body {
    background-size: cover;
@@ -91,6 +91,7 @@
            -webkit-transform: translateY(556px);
            transform: translateY(556px);
        }
+
   .footer-list li {
   display: none;
   }　
@@ -112,8 +113,14 @@
   font-size: 20px;
   }
 
-/*CompanyBrochure*/
+  .contact-wrapper h4 {
+    font-size: 12px;
+  }
 
+/*CompanyBrochure*/
+.table-company h3 {
+  font-size: 13px;
+}
 
 /*BuisinessInfo*/
 

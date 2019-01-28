@@ -9,40 +9,64 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
     (function($) {
-        $(function() {
-            var $header = $('#top-head');
-            // Nav Fixed
-            $(window).scroll(function() {
-                if ($(window).scrollTop() > 350) {
-                    $header.addClass('fixed');
-                } else {
-                    $header.removeClass('fixed');
-                }
-            });
-            // Nav Toggle Button
-            $('#nav-toggle').click(function(){
-                $header.toggleClass('open');
-            });
+      $(function() {
+          var $header = $('#top-head');
+        // Nav Fixed
+      $(window).scroll(function() {
+          if ($(window).scrollTop() > 350) {
+              $header.addClass('fixed');
+          } else {
+              $header.removeClass('fixed');
+          }
+          });
+        // Nav Toggle Button
+      $('#nav-toggle').click(function(){
+              $header.toggleClass('open');
+          });
         });
     })(jQuery);
     </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-      var pagetop = $('.pagetop');
-        $(window).scroll(function () {
-           if ($(this).scrollTop() > 100) {
+       var pagetop = $('.pagetop');
+       $(window).scroll(function () {
+         if ($(this).scrollTop() > 100) {
                 pagetop.fadeIn();
-           } else {
+         } else {
                 pagetop.fadeOut();
                 }
            });
            pagetop.click(function () {
                $('body, html').animate({ scrollTop: 0 }, 500);
                   return false;
-       });
+        });
+      });
+      </script>
+      <script>
+      //yamashiarogo
+      $(function() {
+      $('a img').hover(
+        function() {
+      $(this).fadeTo(200, 0.6);
+    },
+        function() {
+      $(this).fadeTo(200, 1.0);
+    }
+    );
     });
-    </script>
+      </script>
+      <script>
+      $(function() {
+      $('.btn').hover(
+        function() {
+      $(this).fadeTo(1, 0.6);
+    },
+        function() {
+      $(this).fadeTo(1, 1.0);
+    }
+    );
+    });
+      </script>
   </head>
   <body>
     <header id="top-head">
@@ -67,15 +91,14 @@
             </nav>
         </div>
     </header>
-
 	<div class="top-wrapper">
   <p>お問い合わせ</p>
   </div>
   <div class="contact-wrapper">
 <div class="mail-contact">
   <h2>メールでのお問い合わせ</h2>
-  <h4>  お問い合わせにつきましては、下記リンクよりメールにてお問い合わせください</h4>
-  <h4>  qyama2003@gmail.com</h4>
+  <h4>お問い合わせにつきましては、下記リンクよりメールにてお問い合わせください</h4>
+  <h4>kenichi.yamaguchi@yamashia.co.jp</h4>
 </div>
 <div class="line-contact">
   <h2>LINEでのお問い合わせ</h2>
@@ -125,12 +148,12 @@
         <div class="form-item">お問い合わせ内容</div>
         <textarea name="content"></textarea>
 
-        <input type="submit" value="確認">
+        <input class="btn" type="submit" value="確認">
       </form>
     </div>
   <footer>
     <div class="footer-logo">
-      <a href="../index.php"><img src="../images/yamashialogo.png" alt=""　width="70px" height="40px"></a>
+      <a href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="70px" height="40px"></a>
     </div>
    <div class="footer-list">
      <ul>
