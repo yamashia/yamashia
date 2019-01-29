@@ -57,6 +57,7 @@
       </script>
   </head>
   <body>
+    <style>body{background-image: url("../images/katakataS.png");  background-size: contain;}</style>
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">

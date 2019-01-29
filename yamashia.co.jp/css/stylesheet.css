@@ -11,8 +11,6 @@ html {
 
 body {
  font-family: "Hiragino Kaku Gothic ProN";
- background-image: url("../images/katakataS.png");
- background-size: contain;
  margin: 0;
  padding: 0;
  width:100%;
@@ -273,7 +271,8 @@ h2.a4 {background: #FF84D7;}
   padding: 20px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
-}
+  }
+
 
 .main h2 {
   font-size: 20px;
@@ -287,14 +286,6 @@ h2.a4 {background: #FF84D7;}
   font-size: 12px;
 }
 
-.main p {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 20px 5px 0 5px;
-  font-size: 24px;
-  border-bottom: 3px solid #A9F5F2;
-}
-
 .one-main {
 
 }
@@ -306,6 +297,15 @@ h2.a4 {background: #FF84D7;}
 .three-main {
 
 }
+
+.Entrusted p {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 20px 5px 0 5px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+    }
+
 
 .environment {
   width: 90%;
@@ -327,13 +327,6 @@ h2.a4 {background: #FF84D7;}
   font-size: 15px;
 }
 
-.Entrusted p {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 20px 5px;
-  font-size: 20px;
-  border-bottom: 3px solid #A9F5F2;
-}
 
 
 /*ーーーーーーーーーーーCompanyBrochure.phpーーーーーーーーーーー*/
@@ -407,8 +400,7 @@ table {
 .hidden_show p {
   border-radius:20px 20px;
   background-color: #D0F5A9;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px 20px;
   text-align: center;
   font-size: 13px;
 }
@@ -443,13 +435,13 @@ table {
   color: #333;
 }
 
-.contact-wrapper h2 {
+.contact-wrapper p {
   clear: both;
   margin-bottom: 20px;
-  padding: 10px 3px;
+  padding: 20px 5px 0 5px;
   font-size: 17px;
   border-bottom: 3px solid #A9F5F2;
-}
+  }
 
 .contact-wrapper h4 {
   font-size: 18px;
@@ -458,6 +450,7 @@ table {
 .mail-contact {
 padding-left: 10px;
 }
+
 
 .line-contact {
 padding-left: 10px;

@@ -94,21 +94,20 @@
 
   <div class="contact-wrapper">
 <div class="mail-contact">
-  <h2>メールでのお問い合わせ</h2>
+  <p>メールでのお問い合わせ</p>
   <h4>お問い合わせにつきましては、下記リンクよりメールにてお問い合わせください</h4>
   <h4>kenichi.yamaguchi@yamashia.co.jp</h4>
 </div>
 <div class="line-contact">
-  <h2>LINEでのお問い合わせ</h2>
+  <p>LINEでのお問い合わせ</p>
   <img src="../images/line_qr.png" width="150px" height="150px">
   <h4>　LINE ID: yamashia</h4>
 </div>
 <div class="contact">
-  <h2>採用についてのお問い合わせ</h2>
+  <p>採用についてのお問い合わせ</p>
   <h4> 新卒／中途退学問わず受け付けております。詳しくは弊社までお問い合わせください。</h4>
   </div>
 </div>
-
     <div class="contact-form">
       <div class="form-title">お問い合わせ</div>
       <form method="post" action="Confirmation.php">
