@@ -282,7 +282,7 @@ h2.a4 {background: #FF84D7;}
 .top-main p {
   clear: both;
   margin-bottom: 20px;
-  padding: 20px 5px;
+  padding: 20px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
 }
@@ -302,7 +302,7 @@ h2.a4 {background: #FF84D7;}
 .main p {
   clear: both;
   margin-bottom: 20px;
-  padding: 20px 5px;
+  padding: 20px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
 }
@@ -330,7 +330,7 @@ h2.a4 {background: #FF84D7;}
 .environment p {
   clear: both;
   margin-bottom: 20px;
-  padding: 10px 5px;
+  padding: 20px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
 }
@@ -407,7 +407,7 @@ table {
 .table-company p {
   clear: both;
   margin-bottom: 20px;
-  padding: 10px 15px;
+  padding: 20px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
 }
@@ -433,7 +433,7 @@ table {
 .History p {
   clear: both;
   margin-bottom: 20px;
-  padding: 10px 15px;
+  padding: 20px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
 }
