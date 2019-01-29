@@ -1,8 +1,31 @@
 <!DOCTYPE html>
+<?php
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $age = $_POST["age"];
+  $category = $_POST["category"];
+  $content  = $_POST["content"];
+  }
+  ?>
+<?php
+   $dsn = 'mysql:dbname=sddb0040218534;host=sddb0040218534.cgidb';
+   $username = 'sddbMTI5NTE3';
+   $password = '#R1e2p3o4';
+   $options = array(
+  PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
+                          );
+  $dbh = new PDO($dsn, $username, $password, $options);
+  $sql = 'INSERT INTO contact (name,email,age,category,body)
+   VALUES ("'.$name.'","'.$email.'","'.$age.'","'.$category.'","'.$body.'")';
+   $stmt = $dbh->prepare($sql);
+   $stmt->execute();
+   $dbh = null;
+            ?>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>株式会社ヤマシア</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
   	<link rel="stylesheet" href="../css/responsive.css">
@@ -126,6 +149,7 @@
          <input class="btn" type="submit" value="送信">
      </form>
  </div>
+</div>
 <footer>
   <div class="footer-logo">
     <a href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="70px" height="40px"></a>

@@ -97,16 +97,12 @@
   }　
 
 /*contact*/
-  .main {
-    min-width: inherit;
-  }
+input[type="text"] {
+  width: 50%;
+}
 
   .form-title {
    font-size: 25px;
-  }
-
-  input[type="text"] {
-   width: 60%;
   }
 
   .contact-title {

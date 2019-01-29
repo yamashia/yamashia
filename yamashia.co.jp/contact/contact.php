@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>株式会社ヤマシア</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
   	<link rel="stylesheet" href="../css/responsive.css">
@@ -115,28 +115,23 @@
       <div class="form-title">お問い合わせ</div>
       <form method="post" action="Confirmation.php">
         <div class="form-item">名前</div>
-        <input type="text" name="name">
+        <input class="font-size" type="text" name="name">
         <div class="form-item">メールアドレス</div>
-        <input type="text" name="email">
-
-
+        <input class="font-size" type="text" name="email">
         <div class="form-item">年齢</div>
-        <select name="age">
+        <select class="font-size" name="age">
           <option value="未選択">選択してください</option>
-          <!-- for文を用いて6歳から100歳までをoptionで選べるようにしましょう -->
           <?php
             for ($i = 16; $i <= 100; $i++) {
               echo "<option value='{$i}'>{$i}</option>";
             }
           ?>
         </select>
-
         <div class="form-item">お問い合わせの種類</div>
         <?php
           $types = array('採用に関するお問い合わせ','仕事に関するお問い合わせ','その他');
          ?>
-
-        <select name="category">
+        <select class="font-size" name="category">
           <option value="未選択">選択してください</option>
            <?php
              foreach ($types as $type) {
@@ -144,10 +139,8 @@
              }
            ?>
         </select>
-
         <div class="form-item">お問い合わせ内容</div>
-        <textarea name="content"></textarea>
-
+        <textarea class="font-size" name="content"></textarea>
         <input class="btn" type="submit" value="確認">
       </form>
     </div>

@@ -513,35 +513,31 @@ input[type="text"] {
   padding: 6px 12px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  font-size: 14px;
   line-height: 1.428571429;
+  font-size: 14px;
   color: #555;
 }
 
 input[type="submit"] {
   margin-top: 30px;
   width: 30%;
-  border: 1px solid #5cb85c;
   border-radius: 4px;
   padding: 12px;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  font-size: 14px;
-  line-height: 1.428571429;
   color: white;
+  font-size: 14px;
   background-color: #5cb85c;
+  border: 1px solid #5cb85c;
 }
 
 input[type="button"] {
   margin-top: 30px;
   width: 30%;
-  border: 1px solid #5cb85c;
   border-radius: 4px;
   padding: 12px;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  font-size: 14px;
-  line-height: 1.428571429;
   color: white;
+  font-size: 14px;
   background-color: #5cb85c;
+  border: 1px solid #5cb85c;
 }
 
 textarea {
@@ -552,9 +548,14 @@ textarea {
   padding: 6px 12px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  font-size: 14px;
   line-height: 1.428571429;
   color: #555;
+  font-size: 14px;
+}
+
+/*IOSズームさせないためのおまじない*/
+.font-size {
+  font-size: 16px;
 }
 
 .thanks-message h2 {
