@@ -33,8 +33,8 @@ header {
 }
 
 .logo:hover {
-  text-shadow: #FFCC00 0px 0px 20px;
-  color: #EA4515;
+  text-decoration:underline;
+  color: #B1F9D0;
 }
 
 .inner {
@@ -152,8 +152,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-shadow: #FFCC00 0px 0px 20px;
-  color: #EA4515;
+  text-decoration: underline;
+  color: #B1F9D0;
 }
 
 footer {
@@ -228,19 +228,6 @@ footer {
     opacity: 0.5;
 }
 
-.top-wrapper p {
-  width: 100%;
-  margin-top: 65px;
-  padding: 10px 15px;
-  clear: both;
-	background: #191919;
-	background: linear-gradient(#5e5e5e, #3c3c3c 49%, #191919 50%);
-	border-bottom: 3px solid #2799b5;
-	color: #fff;
-  font-size: 18px;
-  text-align: center;
-}
-
 
 /*ーーーーーーーーーーーindex.phpーーーーーーーーーーー*/
 
@@ -254,11 +241,12 @@ h2.a4 {background: #FF84D7;}
 
 .top-main {
   width: 100%;
-  margin: 60px auto;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 50px;
   background-color: #F5F5F5;
   color: #333;
-  margin-top: 80px;
 }
 
 .top-main h2 {
@@ -349,48 +337,6 @@ h2.a4 {background: #FF84D7;}
 
 
 /*ーーーーーーーーーーーCompanyBrochure.phpーーーーーーーーーーー*/
-.hidden_box {
-  font-size: 20px;
-  text-align: center;
-  width: 90%;
-  margin: 60px auto;
-  padding: 50px;
-  background-color: #F5F5F5;
-  color: #333;
-}
-
-.hidden_box input {
-  display: none;
-  }
-
-.hidden_show p {
-  border-radius:20px 20px 20px 20px;
-  background-color: #D0F5A9;
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: center;
-  font-size: 13px;
-}
-
-.hidden_box .hidden_show {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-}
-
-/*クリックで中身表示*/
-.hidden_box input:checked ~ .hidden_show {
-    padding: 10px 0;
-    height: auto;
-    opacity: 1;
-}
-
-.syatiku big {
-  font-size: 25px;
-}
-
 table {
   margin: 30px auto;
   text-align: center;
@@ -398,7 +344,9 @@ table {
 
 .table-company {
   width: 95%;
-  margin: 60px auto;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 50px;
   background-color: #F5F5F5;
   color: #333;
@@ -442,10 +390,54 @@ table {
   font-size: 18px;
 }
 
+.hidden_box {
+  margin: 60px auto;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.hidden_box input {
+  display: none;
+  }
+
+.hidden_show p {
+  border-radius:20px 20px;
+  background-color: #D0F5A9;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+.syatiku big {
+  font-size: 25px;
+}
+
 /*ーーーーーーーーーーーcontact.phpーーーーーーーーーーー*/
 .contact-wrapper {
   width: 95%;
-  margin: 60px auto;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 50px;
   background-color: #F5F5F5;
   color: #333;
@@ -488,6 +480,7 @@ form {
 }
 
 .contact-title {
+  margin-top: 80px;
   text-align: center;
 }
 
@@ -507,7 +500,7 @@ label {
 }
 
 input[type="text"] {
-  width: 30%;
+  width: 40%;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 6px 12px;
@@ -566,8 +559,10 @@ textarea {
 
 .thanks-message {
   padding: 50px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
-  margin: 60px auto;
   background-color: #F5F5F5;
   color: #333;
 }

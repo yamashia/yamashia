@@ -79,9 +79,7 @@
             </nav>
         </div>
     </header>
-	<div class="top-wrapper">
-    <p>事業案内</p>
-  </div>
+
       <div class="top-main">
           <p>当社IT支援のつよみ</p>
           <h2 class="a1">1.公平かつ円滑な支援を行います</h2>

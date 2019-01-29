@@ -91,9 +91,7 @@
             </nav>
         </div>
     </header>
-	<div class="top-wrapper">
-  <p>お問い合わせ</p>
-  </div>
+
   <div class="contact-wrapper">
 <div class="mail-contact">
   <h2>メールでのお問い合わせ</h2>

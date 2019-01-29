@@ -79,36 +79,7 @@
             </nav>
         </div>
     </header>
-	<div class="top-wrapper">
-    <p>会社案内</p>
-    </div>
-      <div class="hidden_box">
-          <label for="label2">副社長挨拶</label>
-          <input type="checkbox" id="label2">
-          <div class="hidden_show">
-            <p class="syatiku">
-                  <br>『進撃の社畜』
-                  <br>平日　乗り越えて　休む　意思を　嗤う　会社　
-                  <br>社畜の安寧　虚偽の休日　死せる土日の　自由を！
-                  <br>囚われた　残業は　サービスの奉仕だ
-              　  <br>終電の　その彼方　まぶたに映る　家がー！　
-                  <br>終わらない　労働に　その身を灼きながら
-                  <br>黄昏に　愚痴こぼす　帰んの無理や　
-            </p>
-                <p class="syatiku">
-                  <br>祝日なのになんで仕事行くの？
-            　    <br>ロボさん<big>「そこに仕事があるから」</big>
-                  <br>「無意味な仕事」だと　言わせない
-                  <br>最後に解雇になるまで
-                  <br>「帰りたくても　帰れへんねん」
-                  <br>「帰りたくても　帰れへんねん」
-                  <br>両手にはメモとペン　謳うのは社訓
-                  <br>実際に上げたモチベを左胸に
-                  <br>斬り裂くのはパワーハラスメント
-                  <br>早急に俺　仕事を辞めたい
-            </p>
-        </div>
-      </div>
+
         <div class="table-company">
           <div class="overview">
     <p>会社概要</p>
@@ -139,6 +110,33 @@
   <h4>2013/02/05 <br>江東区富岡に設立</h4>
   <h4>2016/04/27 <br>世田谷区瀬田に移転</h4>
   </div>
+  </div>
+  <div class="hidden_box">
+      <label for="label2">副社長挨拶</label>
+      <input type="checkbox" id="label2">
+      <div class="hidden_show">
+        <p class="syatiku">
+              <br>『進撃の社畜』
+              <br>平日　乗り越えて　休む　意思を　嗤う　会社　
+              <br>社畜の安寧　虚偽の休日　死せる土日の　自由を！
+              <br>囚われた　残業は　サービスの奉仕だ
+          　  <br>終電の　その彼方　まぶたに映る　家がー！　
+              <br>終わらない　労働に　その身を灼きながら
+              <br>黄昏に　愚痴こぼす　帰んの無理や　
+        </p>
+            <p class="syatiku">
+              <br>祝日なのになんで仕事行くの？
+        　    <br>ロボさん<big>「そこに仕事があるから」</big>
+              <br>「無意味な仕事」だと　言わせない
+              <br>最後に解雇になるまで
+              <br>「帰りたくても　帰れへんねん」
+              <br>「帰りたくても　帰れへんねん」
+              <br>両手にはメモとペン　謳うのは社訓
+              <br>実際に上げたモチベを左胸に
+              <br>斬り裂くのはパワーハラスメント
+              <br>早急に俺　仕事を辞めたい
+        </p>
+    </div>
   </div>
 
 <footer>

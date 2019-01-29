@@ -8,20 +8,20 @@
   $content  = $_POST["content"];
   }
   ?>
-<?php
-   $dsn = 'mysql:dbname=sddb0040218534;host=sddb0040218534.cgidb';
-   $username = 'sddbMTI5NTE3';
-   $password = '#R1e2p3o4';
-   $options = array(
-  PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
-                          );
-  $dbh = new PDO($dsn, $username, $password, $options);
-  $sql = 'INSERT INTO contact (name,email,age,category,body)
-   VALUES ("'.$name.'","'.$email.'","'.$age.'","'.$category.'","'.$body.'")';
-   $stmt = $dbh->prepare($sql);
-   $stmt->execute();
-   $dbh = null;
-            ?>
+  <?php
+     $dsn = 'mysql:dbname=sddb0040218534;host=sddb0040218534.cgidb';
+     $username = 'sddbMTI5NTE3';
+     $password = '#R1e2p3o4';
+     $options = array(
+    PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
+                            );
+    $dbh = new PDO($dsn, $username, $password, $options);
+    $sql = 'INSERT INTO contact (name,email,age,category,body)
+     VALUES ("'.$name.'","'.$email.'","'.$age.'","'.$category.'","'.$body.'")';
+     $stmt = $dbh->prepare($sql);
+     $stmt->execute();
+     $dbh = null;
+  ?>
 <html>
   <head>
     <meta charset="utf-8">
