@@ -17,10 +17,9 @@
        /* Fixed reset */
        #top-head.fixed {
            padding-top: 0;
-           background: transparent;
+           background-color: #A9D0F5;
        }
        #mobile-head {
-           background-color: #5858FA;
            width: 100%;
            height: 56px;
            z-index: 999;
@@ -29,9 +28,8 @@
        #top-head.fixed .logo,
        #top-head .logo {
            position: absolute;
-           left: 13px;
-           top: 13px;
-           font-size: 26px;
+           left: 15px;
+           top: 10px;
            margin-bottom: 10px;
        }
        #global-nav {

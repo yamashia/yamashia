@@ -22,18 +22,9 @@ a {
 }
 
 header {
-  background-color: #5858FA;
+  background-color: #A9D0F5;
 }
 
-.logo {
-  color: white;
-  float:left;
-}
-
-.logo:hover {
-  text-decoration:underline;
-  color: #B1F9D0;
-}
 
 .inner {
     width: 980px;
@@ -66,8 +57,9 @@ header {
 }
 #top-head .logo {
     float: left;
-    left: 5px;
-    font-size: 36px;
+    left: 15px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 #global-nav ul {
     list-style: none;
@@ -89,7 +81,7 @@ header {
     top: 0;
     position: fixed;
     padding-top: 10px;
-    height: 45px;
+    height: 55px;
     background: #fff;
     background: rgba(255,255,255,.7);
     transition: top 0.65s ease-in;
@@ -97,9 +89,9 @@ header {
     -moz-transition: top 0.65s ease-in;
 }
 #top-head.fixed .logo {
-    font-size: 24px;
-    color: #333;
+bottom: 15px;
 }
+
 #top-head.fixed #global-nav ul li a {
     color: #333;
     padding: 0 20px;
@@ -151,11 +143,11 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: #B1F9D0;
+  color: #0174DF;
 }
 
 footer {
- background-color: #BDBDBD;
+ background-color: #D8D8D8;
  position: absolute;
  width: 100%;
  height: 80px;
@@ -167,8 +159,18 @@ footer {
 .footer-logo {
   float: left;
   padding-top: 10px;
-  margin-top: 10px;
+  margin: 10px;
   margin-left: 20px;
+}
+
+.footer-logo a {
+ color:white;
+ font-size: 25px;
+}
+
+.footer-logo a:hover {
+  text-shadow: #A9F5F2 0px 0px 20px;
+  color: #0174DF;
 }
 
 .footer-list {
@@ -189,8 +191,8 @@ footer {
 }
 
 .footer-list li a:hover {
-  text-shadow: #FFCC00 0px 0px 20px;
-  color: #EA4515;
+  text-shadow: #A9F5F2 0px 0px 20px;
+  color: #0174DF;
 }
 
 .pagetop {
@@ -239,10 +241,10 @@ h2.a4 {background: #FF84D7;}
 
 .top-main {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 55px;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 15px;
   background-color: #F5F5F5;
   color: #333;
 }
@@ -268,22 +270,22 @@ h2.a4 {background: #FF84D7;}
 .top-main p {
   clear: both;
   margin-bottom: 20px;
-  padding: 20px 5px 0 5px;
+  padding: 10px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
   }
 
 
 .main h2 {
-  font-size: 20px;
+
 }
 
 .main h3 {
-  font-size: 15px;
+
 }
 
 .main h4 {
-  font-size: 12px;
+
 }
 
 .one-main {
@@ -297,37 +299,21 @@ h2.a4 {background: #FF84D7;}
 .three-main {
 
 }
-
-.Entrusted p {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 20px 5px 0 5px;
-  font-size: 24px;
-  border-bottom: 3px solid #A9F5F2;
-    }
-
-
-.environment {
+.Entrusted {
   width: 90%;
-  margin: 60px auto;
-  padding: 50px;
+  margin: 10px auto;
+  padding: 15px;
   background-color: #F5F5F5;
   color: #333;
 }
 
-.environment p {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 20px 5px 0 5px;
-  font-size: 24px;
-  border-bottom: 3px solid #A9F5F2;
+.environment {
+  width: 90%;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: #F5F5F5;
+  color: #333;
 }
-
-.environment h3 {
-  font-size: 15px;
-}
-
-
 
 /*ーーーーーーーーーーーCompanyBrochure.phpーーーーーーーーーーー*/
 table {
@@ -336,11 +322,11 @@ table {
 }
 
 .table-company {
-  width: 95%;
-  margin-top: 80px;
+  width: 100%;
+  margin-top: 55px;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 15px;
   background-color: #F5F5F5;
   color: #333;
 }
@@ -348,7 +334,7 @@ table {
 .table-company p {
   clear: both;
   margin-bottom: 20px;
-  padding: 20px 5px 0 5px;
+  padding: 10px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
 }
@@ -368,13 +354,17 @@ table {
 }
 
 .History {
-  padding-top: 20px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: #F5F5F5;
+  color: #333;
 }
 
 .History p {
   clear: both;
   margin-bottom: 20px;
-  padding: 20px 5px 0 5px;
+  padding: 10px 5px 0 5px;
   font-size: 24px;
   border-bottom: 3px solid #A9F5F2;
 }
@@ -388,9 +378,12 @@ table {
   font-size: 20px;
   text-align: center;
   width: 90%;
-  padding: 50px;
-  background-color: #F5F5F5;
+  padding: 25px;
   color: #333;
+}
+
+.hidden_box label:hover {
+  text-decoration: underline;
 }
 
 .hidden_box input {
@@ -426,11 +419,11 @@ table {
 
 /*ーーーーーーーーーーーcontact.phpーーーーーーーーーーー*/
 .contact-wrapper {
-  width: 95%;
-  margin-top: 80px;
+  width: 100%;
+  margin-top: 55px;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 15px;
   background-color: #F5F5F5;
   color: #333;
 }
@@ -438,7 +431,7 @@ table {
 .contact-wrapper p {
   clear: both;
   margin-bottom: 20px;
-  padding: 20px 5px 0 5px;
+  padding: 10px 5px 0 5px;
   font-size: 17px;
   border-bottom: 3px solid #A9F5F2;
   }
@@ -463,17 +456,22 @@ padding-left: 10px;
 form {
   margin-left: 10px;
 }
+.Confirmation {
+  padding-top: 50px;
+}
 
 .contact-form {
   width: 95%;
   margin: 60px auto;
   padding: 50px;
   background-color: #F5F5F5;
+  border: solid 1px black;
   color: #333;
 }
 
 .contact-title {
-  margin-top: 80px;
+  margin-top: 10px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -484,7 +482,7 @@ form {
 }
 
 .form-item {
-  padding: 20px 0 10px 0;
+  padding: 15px 0 10px 0;
   font-weight: bold;
 }
 
@@ -544,12 +542,6 @@ textarea {
   font-size: 16px;
 }
 
-.thanks-message h2 {
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-}
-
 .thanks-message {
   padding: 50px;
   margin-top: 80px;
@@ -558,4 +550,11 @@ textarea {
   width: 80%;
   background-color: #F5F5F5;
   color: #333;
+  border: solid 1px black;
+}
+
+.thanks-message h2 {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
 }

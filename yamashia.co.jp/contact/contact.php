@@ -72,7 +72,7 @@
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
-                <a class="logo" href="../index.php">株式会社ヤマシア</a>
+                <a class="logo" href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="80px" height="40px"></a>
                 <div id="nav-toggle">
                     <div>
                         <span></span>
@@ -107,53 +107,53 @@
   <p>採用についてのお問い合わせ</p>
   <h4> 新卒／中途退学問わず受け付けております。詳しくは弊社までお問い合わせください。</h4>
   </div>
-</div>
-    <div class="contact-form">
-      <div class="form-title">お問い合わせ</div>
-      <form method="post" action="Confirmation.php">
-        <div class="form-item">名前</div>
-        <input class="font-size" type="text" name="name">
-        <div class="form-item">メールアドレス</div>
-        <input class="font-size" type="text" name="email">
-        <div class="form-item">年齢</div>
-        <select class="font-size" name="age">
-          <option value="未選択">選択してください</option>
-          <?php
-            for ($i = 16; $i <= 100; $i++) {
-              echo "<option value='{$i}'>{$i}</option>";
-            }
-          ?>
-        </select>
-        <div class="form-item">お問い合わせの種類</div>
+  <div class="contact-form">
+    <div class="form-title">お問い合わせ</div>
+    <form method="post" action="Confirmation.php">
+      <div class="form-item">名前</div>
+      <input class="font-size" type="text" name="name">
+      <div class="form-item">メールアドレス</div>
+      <input class="font-size" type="text" name="email">
+      <div class="form-item">年齢</div>
+      <select class="font-size" name="age">
+        <option value="未選択">選択してください</option>
         <?php
-          $types = array('採用に関するお問い合わせ','仕事に関するお問い合わせ','その他');
+          for ($i = 16; $i <= 100; $i++) {
+            echo "<option value='{$i}'>{$i}</option>";
+          }
+        ?>
+      </select>
+      <div class="form-item">お問い合わせの種類</div>
+      <?php
+        $types = array('採用に関するお問い合わせ','仕事に関するお問い合わせ','その他');
+       ?>
+      <select class="font-size" name="category">
+        <option value="未選択">選択してください</option>
+         <?php
+           foreach ($types as $type) {
+            echo "<option value='{$type}'>{$type}</option>";
+           }
          ?>
-        <select class="font-size" name="category">
-          <option value="未選択">選択してください</option>
-           <?php
-             foreach ($types as $type) {
-              echo "<option value='{$type}'>{$type}</option>";
-             }
-           ?>
-        </select>
-        <div class="form-item">お問い合わせ内容</div>
-        <textarea class="font-size" name="content"></textarea>
-        <input class="btn" type="submit" value="確認">
-      </form>
-    </div>
-  <footer>
-    <div class="footer-logo">
-      <a href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="70px" height="40px"></a>
-    </div>
-   <div class="footer-list">
-     <ul>
-        <li><a href="../index.php">ホーム</a></li>
-        <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
-        <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
-        <li><a href="../contact/contact.php">お問い合わせ</a></li>
-     </ul>
-     <p class="pagetop"><a href="#wrap">▲</a></p>
-    </div>
-  </footer>
-  </body>
+      </select>
+      <div class="form-item">お問い合わせ内容</div>
+      <textarea class="font-size" name="content"></textarea>
+      <input class="btn" type="submit" value="確認">
+    </form>
+  </div>
+</div>
+ <footer>
+ <div class="footer-logo">
+   <a href="../index.php">株式会社ヤマシア</a>
+ </div>
+ <div class="footer-list">
+   <ul>
+      <li><a href="../index.php">ホーム</a></li>
+      <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
+      <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
+      <li><a href="../contact/contact.php">お問い合わせ</a></li>
+   </ul>
+   <p class="pagetop"><a href="#wrap">▲</a></p>
+  </div>
+</footer>
+</body>
 </html>

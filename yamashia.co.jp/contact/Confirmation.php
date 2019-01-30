@@ -81,7 +81,7 @@
       <header id="top-head">
           <div class="inner">
               <div id="mobile-head">
-                  <a class="logo" href="../index.php">株式会社ヤマシア</a>
+                <a class="logo" href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="80px" height="40px"></a>
                   <div id="nav-toggle">
                       <div>
                           <span></span>
@@ -100,6 +100,7 @@
               </nav>
           </div>
       </header>
+      <div class="Confirmation">
     <div class="contact-form">
       <form action="thanks.php" method="post">
              <input type="hidden" name="name" value="<?php echo $name; ?>">
@@ -136,9 +137,10 @@
      </form>
  </div>
 </div>
+</div>
 <footer>
   <div class="footer-logo">
-    <a href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="70px" height="40px"></a>
+　　　<a href="../index.php">株式会社ヤマシア</a>
   </div>
  <div class="footer-list">
    <ul>

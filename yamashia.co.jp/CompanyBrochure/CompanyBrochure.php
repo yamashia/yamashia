@@ -60,7 +60,7 @@
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
-                <a class="logo" href="../index.php">株式会社ヤマシア</a>
+                <a class="logo" href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="80px" height="40px"></a>
                 <div id="nav-toggle">
                     <div>
                         <span></span>
@@ -110,7 +110,6 @@
   <h4>2013/02/05 <br>江東区富岡に設立</h4>
   <h4>2016/04/27 <br>世田谷区瀬田に移転</h4>
   </div>
-  </div>
   <div class="hidden_box">
       <label for="label2">副社長挨拶</label>
       <input type="checkbox" id="label2">
@@ -138,10 +137,10 @@
         </p>
     </div>
   </div>
-
+  </div>
 <footer>
   <div class="footer-logo">
-    <a href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="70px" height="40px"></a>
+    <a href="../index.php">株式会社ヤマシア</a>
   </div>
  <div class="footer-list">
    <ul>

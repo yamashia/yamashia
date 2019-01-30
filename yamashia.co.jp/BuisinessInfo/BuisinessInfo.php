@@ -60,7 +60,7 @@
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
-                <a class="logo" href="../index.php">株式会社ヤマシア</a>
+<a class="logo" href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="80px" height="40px"></a>
                 <div id="nav-toggle">
                     <div>
                         <span></span>
@@ -112,15 +112,16 @@
          <p>案件受託</p>
          <h4>準備中～</h4>
         </div>
+        <div class="environment">
+          <p>環境</p>
+          <h3>※OSは最新版　<br>■Mac 　■Windows</h3>
+          <h3>■社内WAN(webサーバーのプロセスありの共有server)へのアップロード／ダウンロードが可能な環境</h3>
+        </div>
      </div>
-     <div class="environment">
-       <p>環境</p>
-       <h3>※OSは最新版　<br>■Mac 　■Windows</h3>
-       <h3>■社内WAN(webサーバーのプロセスありの共有server)へのアップロード／ダウンロードが可能な環境</h3>
-     </div>
+
   <footer>
     <div class="footer-logo">
-      <a href="../index.php"><img src="../images/yamashialogo.png" alt="ヤマシアロゴ"　width="70px" height="40px"></a>
+     <a href="../index.php">株式会社ヤマシア</a>
     </div>
    <div class="footer-list">
      <ul>
