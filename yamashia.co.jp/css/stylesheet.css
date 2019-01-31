@@ -81,7 +81,7 @@ header {
     top: 0;
     position: fixed;
     padding-top: 10px;
-    height: 55px;
+    height: 56px;
     background: #fff;
     background: rgba(255,255,255,.7);
     transition: top 0.65s ease-in;
@@ -241,30 +241,12 @@ h2.a4 {background: #FF84D7;}
 
 .top-main {
   width: 100%;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
   background-color: #F5F5F5;
   color: #333;
-}
-
-.top-main h2 {
-  font-size: 20px;
-  font-weight: bold;
-  display: block;
-  padding: 5px 5px;
-  color: #fff;
-  text-align: left;
-}
-
-
-.top-main h3 {
-  font-size: 15px;
-}
-
-.top-main h4 {
-  font-size:12px;
 }
 
 .top-main p {
@@ -275,17 +257,21 @@ h2.a4 {background: #FF84D7;}
   border-bottom: 3px solid #A9F5F2;
   }
 
-
-.main h2 {
-
+.top-main h2 {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding: 5px 5px;
+  color: #fff;
+  text-align: left;
 }
 
-.main h3 {
-
+.top-main h3 {
+  font-size: 15px;
 }
 
-.main h4 {
-
+.top-main h4 {
+  font-size:12px;
 }
 
 .one-main {
@@ -299,6 +285,7 @@ h2.a4 {background: #FF84D7;}
 .three-main {
 
 }
+
 .Entrusted {
   width: 90%;
   margin: 10px auto;
@@ -323,7 +310,7 @@ table {
 
 .table-company {
   width: 100%;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
@@ -420,7 +407,7 @@ table {
 /*ーーーーーーーーーーーcontact.phpーーーーーーーーーーー*/
 .contact-wrapper {
   width: 100%;
-  margin-top: 55px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;

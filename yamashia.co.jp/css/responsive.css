@@ -1,4 +1,4 @@
-@media all and (max-width: 850px) {
+@media all and (max-width: 900px) {
 
  .body {
    background-size: cover;
@@ -91,8 +91,8 @@
        }
 
   .footer-list li {
-  display: none;
-  }　
+    display: none;
+  }
 
 /*contact*/
   .form-title {
@@ -112,11 +112,25 @@
     font-size: 16px;
   }
 
-/*CompanyBrochure*/
-.table-company h3 {
-  font-size: 13px;
-}
+  .contact-wrapper {
+     margin-top: 30px !important;
+     padding: 5px !important;
+  }
 
-/*BuisinessInfo*/
+    /*CompanyBrochure*/
+    .table-company {
+      margin-top: 20px;
+      padding: 5px;
+    }
+
+    .table-company h3 {
+     font-size: 13px;
+    }
+
+  /*BuisinessInfo*/
+  .top-main {
+    margin-top: 20px;
+    padding: 5px;
+  }
 
 }

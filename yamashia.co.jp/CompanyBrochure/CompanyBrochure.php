@@ -79,7 +79,6 @@
             </nav>
         </div>
     </header>
-
         <div class="table-company">
           <div class="overview">
     <p>会社概要</p>
