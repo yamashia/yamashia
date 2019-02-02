@@ -90,6 +90,10 @@
            transform: translateY(556px);
        }
 
+  .footer-logo {
+    margin-left: 10px;
+  }
+
   .footer-list li {
     display: none;
   }

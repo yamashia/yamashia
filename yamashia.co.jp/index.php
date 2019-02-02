@@ -92,8 +92,8 @@
         <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
         <li><a href="../contact/contact.php">お問い合わせ</a></li>
      </ul>
-     <p class="pagetop"><a href="#wrap">▲</a></p>
     </div>
+    <p class="pagetop"><a href="#wrap">▲</a></p>
   </footer>
   </body>
 </html>

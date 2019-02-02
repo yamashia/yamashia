@@ -86,7 +86,7 @@
           <h2 class="a2">2.費用、効果、リスク等からご相談いただけます</h2>
           <h2 class="a3">3.各種サービス(適材)／ソリューション(適所)の適用を促進します</h2>
           <h2 class="a4">4.徹底した情報共有を推進します</h4>
-        </div>    
+        </div>
        <div class="one-main">
          <p>具体的な取り組み</p>
          <h2 class="a1">1.公平かつ円滑な支援を行います</h2>
@@ -117,19 +117,19 @@
           <h3>■社内WAN(webサーバーのプロセスありの共有server)へのアップロード／ダウンロードが可能な環境</h3>
         </div>
      </div>
-  <footer>
-    <div class="footer-logo">
-     <a href="../index.php">株式会社ヤマシア</a>
-    </div>
-   <div class="footer-list">
-     <ul>
-        <li><a href="../index.php">ホーム</a></li>
-        <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
-        <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
-        <li><a href="../contact/contact.php">お問い合わせ</a></li>
-     </ul>
-     <p class="pagetop"><a href="#wrap">▲</a></p>
-    </div>
-  </footer>
-  </body>
-</html>
+     <footer>
+      <div class="footer-logo">
+        <a href="../index.php">株式会社ヤマシア</a>
+      </div>
+      <div class="footer-list">
+        <ul>
+           <li><a href="../index.php">ホーム</a></li>
+           <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
+           <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
+           <li><a href="../contact/contact.php">お問い合わせ</a></li>
+        </ul>
+       </div>
+       <p class="pagetop"><a href="#wrap">▲</a></p>
+     </footer>
+     </body>
+   </html>

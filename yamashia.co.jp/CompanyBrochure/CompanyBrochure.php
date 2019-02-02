@@ -137,19 +137,19 @@
     </div>
   </div>
   </div>
-<footer>
-  <div class="footer-logo">
-    <a href="../index.php">株式会社ヤマシア</a>
-  </div>
- <div class="footer-list">
-   <ul>
-      <li><a href="../index.php">ホーム</a></li>
-      <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
-      <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
-      <li><a href="../contact/contact.php">お問い合わせ</a></li>
-   </ul>
-   <p class="pagetop"><a href="#wrap">▲</a></p>
-  </div>
-</footer>
-</body>
+  <footer>
+   <div class="footer-logo">
+     <a href="../index.php">株式会社ヤマシア</a>
+   </div>
+   <div class="footer-list">
+     <ul>
+        <li><a href="../index.php">ホーム</a></li>
+        <li><a href="../BuisinessInfo/BuisinessInfo.php">事業案内</a></li>
+        <li><a href="../CompanyBrochure/CompanyBrochure.php">会社案内</a></li>
+        <li><a href="../contact/contact.php">お問い合わせ</a></li>
+     </ul>
+    </div>
+    <p class="pagetop"><a href="#wrap">▲</a></p>
+  </footer>
+  </body>
 </html>
