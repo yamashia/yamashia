@@ -57,7 +57,6 @@
       </script>
   </head>
   <body>
-    <style>body{background-image: url("../images/katakataS.png");  background-size: contain;}</style>
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
@@ -80,7 +79,9 @@
             </nav>
         </div>
     </header>
-
+<div class="catch-copy">
+  <p></p>
+</div>
   <footer>
    <div class="footer-logo">
      <a href="../index.php">株式会社ヤマシア</a>
