@@ -80,7 +80,8 @@
         </div>
     </header>
 <div class="catch-copy">
-  <p></p>
+  <p>Let's enjoy job !</p>
+  <p>Now is the time.</p>
 </div>
   <footer>
    <div class="footer-logo">

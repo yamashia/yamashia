@@ -98,6 +98,14 @@
     display: none;
   }
 
+  /*index*/
+  .catch-copy p:nth-child(1) {
+    font-size: 35px;
+  }
+
+  .catch-copy p:nth-child(2) {
+    font-size: 25px;
+  }
 /*contact*/
   .form-title {
    font-size: 25px;
@@ -129,6 +137,10 @@
 
     .table-company h3 {
      font-size: 13px;
+    }
+
+    .syatiku big {
+      font-size: 18px;
     }
 
   /*BuisinessInfo*/
