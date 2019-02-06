@@ -7,6 +7,7 @@ html {
   min-height: 100%;
   margin: 0;
   box-sizing: border-box;
+  background-color: #E0ECF8;
 }
 
 body {
@@ -147,7 +148,7 @@ nav ul li a:hover {
 }
 
 footer {
- background-color: #D8D8D8;
+ background-color: #CEE3F6;
  position: absolute;
  width: 100%;
  height: 55px;
@@ -259,10 +260,15 @@ footer {
   color: white;
   text-shadow: 1px 2px 2px black;
   opacity: 0.7;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-animation: example 0.5s ease 0.5s 1 forwards;
+  animation: example 0.5s ease 0.5s 1 forwards;
 }
 .catch-copy p:nth-child(2) {
   position: absolute;
-  top: 200px;
+  top: 220px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -273,6 +279,26 @@ footer {
   color: white;
   text-shadow: 1px 2px 2px black;
   opacity: 0.7;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-animation: example 0.5s ease 1s 1 forwards;
+  animation: example 0.5s ease 1s 1 forwards;
+}
+
+@-webkit-keyframes example {
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes example {
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 /*ーーーーーーーーーーーBuisinessInfo.phpーーーーーーーーーーー*/
@@ -419,13 +445,30 @@ table {
   display: none;
   }
 
-.hidden_show p {
+.hidden_show p:nth-child(1) {
   border-radius:35px 35px;
   background-color: #D0F5A9;
   padding: 10px 10px;
   text-align: center;
   font-size: 13px;
 }
+
+.hidden_show p:nth-child(2) {
+  border-radius:35px 35px;
+  background-color: #D3F9CA;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.hidden_show p:nth-child(3) {
+  border-radius:35px 35px;
+  background-color: #F6CEF5;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
 
 .hidden_box .hidden_show {
     height: 0;
@@ -486,8 +529,9 @@ padding-left: 10px;
 form {
   margin-left: 10px;
 }
+
 .Confirmation {
-  padding-top: 50px;
+  margin-top: 80px;
 }
 
 .contact-form {
@@ -500,8 +544,8 @@ form {
 }
 
 .contact-title {
-  margin-top: 10px;
-  font-size: 17px;
+  margin-top: 5px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -573,18 +617,27 @@ textarea {
 }
 
 .thanks-message {
-  padding: 50px;
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  background-color: #F5F5F5;
-  color: #333;
-  border: solid 1px black;
+  width: 100%;
+  height: 650px;
+  margin-top: 55px;
+  background-image: url("../images/katakataS.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .thanks-message h2 {
+  position: absolute;
+  top: 230px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 90%;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
   font-style: normal;
+  color: white;
+  text-shadow: 1px 2px 2px black;
 }

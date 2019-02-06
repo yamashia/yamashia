@@ -112,23 +112,23 @@
              <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信」ボタンを押して下さい。</p>
                 <div>
                  <div>
-                     <label>・名前</label>
+                     <label>名前</label>
                      <p><?php echo $name; ?></p>
                  </div>
                  <div>
-                     <label>・メールアドレス</label>
+                     <label>メールアドレス</label>
                      <p><?php echo $email; ?></p>
                  </div>
                  <div>
-                     <label>・年齢</label>
+                     <label>年齢</label>
                      <p><?php echo $age; ?></p>
                  </div>
                  <div>
-                     <label>・お問い合わせ種類</label>
+                     <label>お問い合わせ種類</label>
                      <p><?php echo $category; ?></p>
                  </div>
                  <div>
-                     <label>・お問い合わせ内容</label>
+                     <label>お問い合わせ内容</label>
                      <p><?php echo $content; ?></p>
                    </div>
 

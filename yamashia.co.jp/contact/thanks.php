@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <?php
-  	// UNIX TIMESTAMPを取得
-  	$timestamp = time() ;
-  	// date()で日時を出力
-  	echo date( "Y/m/d" , $timestamp ) ;
-  	// 改行
-  	echo "<br><br>" ;
-  	// 第2引数は省略できる = time()を指定したのと同じ
-  	echo date( "Y/m/d" ) ;
+// UNIX TIMESTAMPを取得
+  $timestamp = time() ;
   $name = $_POST["name"];
   $email = $_POST["email"];
   $age = $_POST["age"];
@@ -84,7 +78,6 @@
       </script>
   </head>
   <body>
-    <style>body{background-image: url("../images/katakataS.png");  background-size: contain;}</style>
     <header id="top-head">
         <div class="inner">
             <div id="mobile-head">
@@ -107,7 +100,9 @@
             </nav>
         </div>
     </header>
-         <div class="thanks-message"><h2>お問い合わせいただきありがとうございます。</h2></div>
+         <div class="thanks-message">
+           <h2>お問い合わせいただきありがとうございます。</h2>
+         </div>
          <footer>
           <div class="footer-logo">
             <a href="../index.php">株式会社ヤマシア</a>

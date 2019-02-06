@@ -104,6 +104,7 @@
   }
 
   .catch-copy p:nth-child(2) {
+    top: 180px;
     font-size: 25px;
   }
 /*contact*/
@@ -112,7 +113,7 @@
   }
 
   .contact-title {
-  font-size: 20px;
+  font-size: 17px;
   }
 
   .contact-wrapper h4 {
@@ -127,6 +128,19 @@
   .contact-wrapper {
      margin-top: 30px !important;
      padding: 5px !important;
+  }
+
+  .Confirmation {
+    margin-top: 65px;
+  }
+
+  .thanks-message {
+    font-size: 16px;
+    height: 500px;
+  }
+
+  .thanks-message h2 {
+    font-size: 16px;
   }
 
     /*CompanyBrochure*/
