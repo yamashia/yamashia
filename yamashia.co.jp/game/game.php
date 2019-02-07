@@ -23,8 +23,7 @@
 
       <style>
         .game {
-          padding:55px 0;
-
+          padding-top:55px;
         }
         canvas{
           background: pink;
@@ -33,7 +32,7 @@
         input[type="button"] {
           position: absolute;
           top: 15%;
-          left: 5%;
+          right: 5%;
         }
         input[type="button"]:hover {
           opacity: 0.5;
@@ -177,7 +176,7 @@
     </header>
     <div class="game">
 <input type="button" value="もう一日残業" onclick="window.location.reload();">
-<canvas id='canvas' width='640' height='860'></canvas>
+<canvas id='canvas' width='640' height='800'></canvas>
 
 </div>
   <footer>
