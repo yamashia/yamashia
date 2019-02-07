@@ -113,7 +113,7 @@
       <label for="label2">副社長挨拶</label>
       <input type="checkbox" id="label2">
       <div class="hidden_show">
-          <p class="syatiku">
+          <p class="syachiku">
             <br>『進撃の社畜』
             <br>
             <br>平日　乗り越えて
@@ -125,7 +125,7 @@
             <br>終わらない　労働に　その身を灼きながら
             <br>黄昏に　愚痴こぼす　帰んの無理や　
          </p>
-         <p class="syatiku">
+         <p class="sychiku">
             <br>祝日なのになんで仕事行くの？
             <br>ロボさん<big>「そこに仕事があるから」</big>
             <br>「無意味な仕事」だと　言わせない
@@ -137,7 +137,7 @@
             <br>斬り裂くのはパワーハラスメント
             <br>早急に俺　仕事を辞めたい
           </p>
-          <p class="syatiku">
+          <p class="syachiku">
             <br>萌え市場の終息は無いだろうと信じ漁った
             <br>金を貢いだオタクの日は　いつも恍惚に
             <br>モニタの中の少女は　枯れず魅力ブラボーで
@@ -152,6 +152,7 @@
             <br>崇めよ！　崇めよ！　二次嬢を崇めよ！
             <br>Blue-ray全巻を　その手で一式買え
           </p>
+          <p class="shavhiku"><a href="../game/game.php">game</a></p>
     </div>
   </div>
   </div>
