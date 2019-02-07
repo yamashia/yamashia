@@ -6,7 +6,44 @@
     <title>株式会社ヤマシア</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
   	<link rel="stylesheet" href="../css/responsive.css">
+    <style>
+      .game {
+        padding-top:55px;
+      }
+      canvas{
+        background: pink;
+        width: 100%;
+      }
+      input[type="button"] {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+      }
+      input[type="button"]:hover {
+        opacity: 0.5;
+      }
+    </style>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+    (function($) {
+      $(function() {
+          var $header = $('#top-head');
+        // Nav Fixed
+      $(window).scroll(function() {
+          if ($(window).scrollTop() > 350) {
+              $header.addClass('fixed');
+          } else {
+              $header.removeClass('fixed');
+          }
+          });
+        // Nav Toggle Button
+      $('#nav-toggle').click(function(){
+              $header.toggleClass('open');
+          });
+        });
+    })(jQuery);
+    </script>
+    
       <script>
       //yamashiarogo
       $(function() {
@@ -21,23 +58,6 @@
     });
       </script>
 
-      <style>
-        .game {
-          padding-top:55px;
-        }
-        canvas{
-          background: pink;
-          width: 100%;
-        }
-        input[type="button"] {
-          position: absolute;
-          top: 15%;
-          right: 5%;
-        }
-        input[type="button"]:hover {
-          opacity: 0.5;
-        }
-      </style>
       <script>
     // スラッシュを2つ書くと以降の文字は「コメント」となり、無視されます。
     // プログラムの説明を書き込みたいときに使います。
