@@ -90,7 +90,7 @@ header {
     -moz-transition: top 0.65s ease-in;
 }
 #top-head.fixed .logo {
-bottom: 15px;
+    bottom: 15px;
 }
 
 #top-head.fixed #global-nav ul li a {
@@ -144,6 +144,7 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+  transition-duration: 0.5s;
   color: #0174DF;
 }
 
@@ -172,6 +173,7 @@ footer {
 .footer-logo a:hover {
   text-shadow: #A9F5F2 0px 0px 20px;
   color: #0174DF;
+  transition-duration: 0.5s;
 }
 
 .footer-list ul {
@@ -326,10 +328,10 @@ footer {
 }
 
 /*ーーーーーーーーーーーBuisinessInfo.phpーーーーーーーーーーー*/
-h2.a1 {background: #FF9933;}
-h2.a2 {background: #00CCFF;}
-h2.a3 {background: #33CC66;}
-h2.a4 {background: #FF84D7;}
+a.a1 {background-color: #FF9933;}
+a.a2 {background-color: #00CCFF;}
+a.a3 {background-color: #33CC66;}
+a.a4 {background-color: #FF84D7;}
 
 .top-main {
   width: 100%;
@@ -349,47 +351,54 @@ h2.a4 {background: #FF84D7;}
   border-bottom: 3px solid #A9F5F2;
   }
 
-.top-main h2 {
+.top-main a {
   font-size: 20px;
   font-weight: bold;
   display: block;
-  padding: 5px 5px;
-  color: #fff;
+  margin: 15px 5px;
+  padding: 10px 5px;
   text-align: left;
+  color: #fff;
 }
 
 .top-main h3 {
-  font-size: 15px;
+  font-size: 14px;
+  margin: 15px 10px;
+
 }
 
 .top-main h4 {
   font-size:12px;
+  margin: 15px 10px;
 }
 
 .one-main {
-
+margin-top: 20px 5px;
 }
 
 .two-main {
-
+margin-top: 20px 5px;
 }
 
 .three-main {
-
+margin-top: 20px 5px;
 }
 
 .Entrusted {
   width: 90%;
   margin: 10px auto;
-  padding: 15px;
+  padding: 10px;
   background-color: #F5F5F5;
   color: #333;
 }
 
 .environment {
   width: 90%;
-  margin: 30px auto;
-  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   background-color: #F5F5F5;
   color: #333;
 }
@@ -535,19 +544,19 @@ table {
 
 .contact-wrapper h4 {
   font-size: 18px;
+  padding: 0 5px;
 }
 
 .mail-contact {
-padding-left: 10px;
+  padding: 5px 5px;
 }
 
-
 .line-contact {
-padding-left: 10px;
+  padding: 5px 5px;
 }
 
 .contact {
-padding-left: 10px;
+  padding: 5px 5px;
 }
 
 form {
@@ -560,8 +569,12 @@ form {
 
 .contact-form {
   width: 95%;
-  margin: 60px auto;
-  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
   background-color: #F5F5F5;
   border: solid 1px black;
   color: #333;
