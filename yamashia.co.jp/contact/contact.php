@@ -91,6 +91,13 @@
             </nav>
         </div>
     </header>
+    <div class="contact-title">
+      <div class="layer2">
+      <h2>お問い合わせ</h2>
+      <h3>この度は、株式会社ヤマシアのWebサイトをご覧いただき誠にありがとうございます。</h3>
+      <h3>事業概要、仕事に関するお問合せ、ご質問など、下記の方法にて、お受付しております。</h3>
+    </div>
+  </div>
   <div class="contact-wrapper">
 <div class="mail-contact">
   <p>メールでのお問い合わせ</p>

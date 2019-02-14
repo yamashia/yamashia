@@ -79,13 +79,15 @@
             </nav>
         </div>
     </header>
-        <div class="table-company">
-          <div class="overview">
-    <p>会社概要</p>
+         <div class="overview">
+           <div class="layer">
     <h2>会社の理念</h2>
     <h3>御社利益のためのITの支援をいたします</h3>
     <h3>臨機に時々の最善を尽くします</h3>
-          </div>
+           </div>
+         </div>
+          <div class="table-company">
+            <div class="table"></div>
     <table border=1 cellpadding=7 cellspacing=2>
   <tr>
     <td>社名</td>
@@ -104,6 +106,7 @@
   <td>三井住友銀行</td>
 </tr>
     </table>
+
     <div class="History">
       <p>沿革</p>
   <h4>2013/02/05 <br>江東区富岡に設立</h4>

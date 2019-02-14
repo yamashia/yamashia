@@ -108,7 +108,7 @@
              <input type="hidden" name="age" value="<?php echo $age; ?>">
              <input type="hidden" name="category" value="<?php echo $category; ?>">
              <input type="hidden" name="content" value="<?php echo $content; ?>">
-             <h1 class="contact-title">お問い合わせ<br>内容確認</h1>
+             <h1 class="contact-check">お問い合わせ<br>内容確認</h1>
              <p>お問い合わせ内容はこちらで宜しいでしょうか？<br>よろしければ「送信」ボタンを押して下さい。</p>
                 <div>
                  <div>

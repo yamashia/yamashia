@@ -108,11 +108,15 @@
     font-size: 25px;
   }
 /*contact*/
+.contact-title h3 {
+  font-size: 12px;
+}
+
   .form-title {
    font-size: 25px;
   }
 
-  .contact-title {
+  .contact-check {
   font-size: 17px;
   }
 
@@ -125,15 +129,6 @@
     font-size: 16px;
   }
 
-  .contact-wrapper {
-     margin-top: 30px !important;
-     padding: 5px !important;
-  }
-
-  .Confirmation {
-    margin-top: 65px;
-  }
-
   .thanks-message {
     font-size: 16px;
   }
@@ -142,16 +137,11 @@
     font-size: 16px;
   }
 
+  .Confirmation {
+    margin-top: 65px;
+  }
+
     /*CompanyBrochure*/
-    .table-company {
-      margin-top: 20px;
-      padding: 5px;
-    }
-
-    .table-company h3 {
-     font-size: 13px;
-    }
-
     .syachiku big {
       font-size: 18px;
     }
