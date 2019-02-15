@@ -80,7 +80,7 @@
         </div>
     </header>
          <div class="overview">
-           <div class="layer">
+           <div class="layer2">
     <h2>会社の理念</h2>
     <h3>御社利益のためのITの支援をいたします</h3>
     <h3>臨機に時々の最善を尽くします</h3>

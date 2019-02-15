@@ -9,6 +9,7 @@
     <style>
       .game {
         padding-top:55px;
+        padding-bottom: 50px;
       }
       canvas{
         background: pink;
@@ -43,7 +44,7 @@
         });
     })(jQuery);
     </script>
-    
+
       <script>
       //yamashiarogo
       $(function() {

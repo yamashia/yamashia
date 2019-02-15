@@ -92,7 +92,7 @@
         </div>
     </header>
     <div class="contact-title">
-      <div class="layer2">
+      <div class="layer3">
       <h2>お問い合わせ</h2>
       <h3>この度は、株式会社ヤマシアのWebサイトをご覧いただき誠にありがとうございます。</h3>
       <h3>事業概要、仕事に関するお問合せ、ご質問など、下記の方法にて、お受付しております。</h3>
