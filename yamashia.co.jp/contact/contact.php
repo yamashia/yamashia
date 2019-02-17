@@ -101,13 +101,8 @@
   <div class="contact-wrapper">
 <div class="mail-contact">
   <p>メールでのお問い合わせ</p>
-  <h4>お問い合わせにつきましては、下記リンクよりメールにてお問い合わせください</h4>
+  <h4>お問い合わせは、以下のメールアドレスにお願いいたします。</h4>
   <h4>kenichi.yamaguchi@yamashia.co.jp</h4>
-</div>
-<div class="line-contact">
-  <p>LINEでのお問い合わせ</p>
-  <img src="../images/line_qr.png" width="150px" height="150px">
-  <h4>　LINE ID: yamashia</h4>
 </div>
 <div class="contact">
   <p>採用についてのお問い合わせ</p>
