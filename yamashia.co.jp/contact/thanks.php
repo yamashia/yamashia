@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <?php
-// UNIX TIMESTAMPを取得
   $timestamp = time() ;
   $name = $_POST["name"];
   $email = $_POST["email"];

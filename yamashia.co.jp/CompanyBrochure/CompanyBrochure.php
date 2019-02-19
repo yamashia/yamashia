@@ -87,31 +87,29 @@
            </div>
          </div>
           <div class="table-company">
-            <div class="table"></div>
-    <table border=1 cellpadding=7 cellspacing=2>
-  <tr>
-    <td>社名</td>
-    <td>株式会社ヤマシア</td>
-  </tr>
-<tr>
-  <td>事業内容</td>
-  <td>UI/UX支援、案件支援、案件受託、テスト</td>
-</tr>
-<tr>
-  <td>所在地</td>
-  <td>東京</td>
-</tr>
-<tr>
-  <td>主な取引銀行</td>
-  <td>三井住友銀行</td>
-</tr>
+    <table>
+      <tr>
+        <th class="t_top">会社名</th>
+        <td class="t_top">株式会社ヤマシア</td>
+      </tr>
+      <tr>
+        <th>事業内容</th>
+        <td>UI/UX支援、案件支援、案件受託、テスト</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>東京</td>
+      </tr>
+      <tr>
+        <th>主な取引銀行</th>
+        <td>三井住友銀行</td>
+      </tr>
+      <tr>
+        <th>沿革</th>
+        <td> 2013/02/05 江東区富岡に設立<br><br>2016/04/27 世田谷区瀬田に移転</td>
+      </tr>
     </table>
-
-    <div class="History">
-      <p>沿革</p>
-  <h4>2013/02/05 <br>江東区富岡に設立</h4>
-  <h4>2016/04/27 <br>世田谷区瀬田に移転</h4>
-  </div>
+      </div>
   <div class="hidden_box">
       <label for="label2">副社長挨拶</label>
       <input type="checkbox" id="label2">
@@ -156,7 +154,6 @@
             <br>Blue-ray全巻を　その手で一式買え
           </p>
           <p class="shavhiku"><a href="../game/game.php">game</a></p>
-    </div>
   </div>
   </div>
   <footer>

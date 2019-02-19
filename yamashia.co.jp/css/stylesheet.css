@@ -7,7 +7,7 @@ html {
   min-height: 100%;
   margin: 0;
   box-sizing: border-box;
-  background-color: #E0ECF8;
+  background-color: #F5F5F5;
 }
 
 body {
@@ -234,7 +234,6 @@ footer {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
-
 
 /*ーーーーーーーーーーーindex.phpーーーーーーーーーーー*/
 #loader-bg {
@@ -486,55 +485,42 @@ footer {
 }
 
 .table-company {
-  width: 100%;
-  padding-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 15px;
+  width: 95%;
+  padding-top: 20px;
+  margin: 30px auto;
   background-color: #F5F5F5;
   color: #333;
 }
 
 table {
-  text-align: center;
-  width: 80%;
-  margin: 10px auto;
+	border-collapse: collapse;
+	width:100%;
 }
-
-.table-company p {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 10px 5px 0 5px;
-  font-size: 24px;
-  border-bottom: 3px solid #A9F5F2;
+th.t_top {
+    border-top: #be1309 4px solid;
 }
-
-.History {
-  width: 90%;
-  margin: 30px auto;
-  padding: 15px;
-  background-color: #F5F5F5;
-  color: #333;
+th {
+	border-bottom: #e3e3e3 1px dotted;
+	text-align: left;
+  background: #e3f0fb;
+	padding: 5px;
+	font-weight: normal;
 }
-
-.History p {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 10px 5px 0 5px;
-  font-size: 24px;
-  border-bottom: 3px solid #A9F5F2;
+td.t_top {
+	border-top: #b3b3b3 4px solid;
 }
-
-.History h4 {
-  font-size: 18px;
+td {
+	border-bottom: #e3e3e3 1px dotted;
+	text-align: left;
+  background: #fff;
+	padding: 5px;
 }
 
 .hidden_box {
-  margin: 60px auto;
+  margin: 55px auto;
   font-size: 20px;
   text-align: center;
   width: 95%;
-  padding: 25px;
   color: #333;
 }
 
@@ -569,7 +555,6 @@ table {
   text-align: center;
   font-size: 12px;
 }
-
 
 .hidden_box .hidden_show {
     height: 0;
@@ -680,6 +665,12 @@ form {
   text-align: center;
 }
 
+.contact-check2 {
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
 .form-title {
   text-align: center;
   margin-bottom: 30px;
@@ -696,6 +687,18 @@ label {
 }
 
 input[type="text"] {
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  line-height: 1.428571429;
+  font-size: 14px;
+  color: #555;
+}
+
+input[type="email"] {
   width: 40%;
   border: 1px solid #ccc;
   border-radius: 4px;

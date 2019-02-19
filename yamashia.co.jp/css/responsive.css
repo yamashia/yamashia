@@ -109,6 +109,14 @@
   }
 
   /*CompanyBrochure*/
+
+  th {
+    width: 25%;
+  }
+  td {
+    width: 75%;
+  }
+
     .syachiku big {
       font-size: 18px;
     }
@@ -133,6 +141,11 @@
   }
 
   input[type="text"] {
+    width: 75%;
+    font-size: 16px;
+  }
+
+  input[type="email"] {
     width: 75%;
     font-size: 16px;
   }

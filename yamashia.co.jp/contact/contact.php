@@ -111,10 +111,10 @@
   <div class="contact-form">
     <div class="form-title">お問い合わせ</div>
     <form method="post" action="Confirmation.php">
-      <div class="form-item">名前</div>
-      <input class="font-size" type="text" name="name">
-      <div class="form-item">メールアドレス</div>
-      <input class="font-size" type="text" name="email">
+      <div class="form-item">名前 <small>※必須</small></div>
+      <input class="font-size" type="text" name="name" required>
+      <div class="form-item">メールアドレス <small>※必須</small></div>
+      <input class="font-size" type="email" name="email" required>
       <div class="form-item">年齢</div>
       <select class="font-size" name="age">
         <option value="未選択">選択してください</option>
@@ -136,8 +136,8 @@
            }
          ?>
       </select>
-      <div class="form-item">お問い合わせ内容</div>
-      <textarea class="font-size" name="content"></textarea>
+      <div class="form-item">お問い合わせ内容 <small>※必須</small></div>
+      <textarea class="font-size" name="content" required></textarea>
       <input class="btn" type="submit" value="確認">
     </form>
   </div>
