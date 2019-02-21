@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>株式会社ヤマシア</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/flickity.css">
   	<link rel="stylesheet" href="../css/responsive.css">
+    <script src="../JS/flickity.pkgd.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>
     (function($) {
@@ -83,35 +85,39 @@
       <div class="layer">
       <h2>事業案内</h2>
       <h3>当社ITのつよみ</h3>
-      <div class="main">
-        <a href="#link" class="a1" >1.公平かつ円滑な支援を行います</a>
-        <a href="#link2" class="a2">2.費用、効果、リスク等からご相談いただけます</a>
-        <a href="#link3" class="a3">3.各種サービス(適材)／ソリューション(適所)の適用を促進します</a>
-        <a href="#link4" class="a4">4.徹底した情報共有を推進します</a>
+      <div class="top-main">
+        <a class="a1" >1.公平かつ円滑な支援を行います</a>
+        <a class="a2">2.費用、効果、リスク等からご相談いただけます</a>
+        <a class="a3">3.各種サービス(適材)／ソリューション(適所)の適用を促進します</a>
+        <a class="a4">4.徹底した情報共有を推進します</a>
       </div>
      </div>
     </div>
-          <div class="top-main">
-       <div class="one-main">
-         <p>具体的な取り組み</p>
-         <a name="link" class="a1">1.公平かつ円滑な支援を行います</a>
-         <h3>■数字をもとに俯瞰して柔軟性をもった判断　※コスト計算、アクセス解析数値、パフォーマンス解析、etc</h3>
-         <h3>■課題根本解決へ診断、分析、最適なアクセスパスの見極め</h3>
-         <h3>■UXは「お客様中心」に、UIは「シンプルに・わかりやすく」</h3>
-       </div>
-       <div class="two-main">
-         <a name="link2" class="a2">2.費用、効果、リスク等からご相談いただけます（※）</a>
-         <h3>■費用対効果、リスク管理、多方面からご相談ください。</h3>
-         <h3>■構成管理のツール実績等もあわせてご相談ください。</h4>
-         <h4> （※） 当社は既存の枠にとらわれない一環した案件推進の新しいソリューションを提供するのが強みの会社です。 </h3>
-         <h4>案件途中の制約付き進行を余儀なくされる場合、また、ツールのバージョンアップ等でのセキュリティ／脆弱性面の保証が将来的になくなるリスクについては、対応できない可能性がございます。
-           　案件途中でのニュース・脆弱性速報による検知について、その先の継続については、内容精査のもと別途ご相談になります。予めご了承下さい。</h4>
-       </div>
-       <div class="three-main">
-         <a name="link3" class="a3">3.各種サービス(適材)／ソリューション(適所)の適用を促進します</a>
-         <h3>■フリーのツール(JIRA、Redmine、TRAC、etc)から、有料サービスまで、WEB環境での共有環境構築についてご相談いただけます。</h3>
-         <h3>■PDCA+プロトタイプモデルのスピーディーなソリューション(各種クラウド、xampp、conflict5、etc)のご利用を承っております。　<br>マニュアル・手順整備についてもぜひご相談ください。</h3>
-       </div>
+
+    <h2 class="carousel-title">具体的な内容</h2>
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell">
+        <p>1.公平かつ円滑な支援を行います</p>
+        <h3>■数字をもとに俯瞰して柔軟性をもった判断　※コスト計算、アクセス解析数値、パフォーマンス解析、etc</h3>
+        <h3>■課題根本解決へ診断、分析、最適なアクセスパスの見極め</h3>
+        <h3>■UXは「お客様中心」に、UIは「シンプルに・わかりやすく」</h3>
+      </div>
+      <div class="carousel-cell">
+          <p>2.費用、効果、リスク等からご相談いただけます（※）</p>
+          <h3>■費用対効果、リスク管理、多方面からご相談ください。</h3>
+        <h3>■構成管理のツール実績等もあわせてご相談ください。</h3>
+        <h4> （※） 当社は既存の枠にとらわれない一環した案件推進の新しいソリューションを提供するのが強みの会社です。
+        <br>案件途中の制約付き進行を余儀なくされる場合、また、ツールのバージョンアップ等でのセキュリティ／脆弱性面の保証が将来的になくなるリスクについては、対応できない可能性がございます。
+          　案件途中でのニュース・脆弱性速報による検知について、その先の継続については、内容精査のもと別途ご相談になります。予めご了承下さい。</h4>
+      </div>
+      <div class="carousel-cell">
+        <p>3.各種サービス(適材)／ソリューション(適所)の適用を促進します</p>
+        <h3>■フリーのツール(JIRA、Redmine、TRAC、etc)から、有料サービスまで、WEB環境での共有環境構築についてご相談いただけます。</h3>
+        <h3>■PDCA+プロトタイプモデルのスピーディーなソリューション(各種クラウド、xampp、conflict5、etc)のご利用を承っております。マニュアル・手順整備についてもぜひご相談ください。</h3>
+      </div>
+    </div>
+        <div class="main2">
         <div class="Entrusted">
          <p>案件受託</p>
          <h4>準備中～</h4>

@@ -122,7 +122,21 @@
     }
 
   /*BuisinessInfo*/
+  .carousel-cell {
+    height: 400px;
+  }
 
+  .carousel-cell p {
+  font-size: 16px;
+  }
+
+  .carousel-cell h3 {
+  font-size: 13px;
+  }
+
+  .carousel-cell h4 {
+  font-size: 11px;
+  }
   /*contact*/
 .contact-title h3 {
   font-size: 12px;

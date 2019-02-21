@@ -359,28 +359,12 @@ footer {
   opacity: 0.8;
 }
 
-.top-main {
-  width: 100%;
-  margin:  0 auto;
-  padding: 15px;
-  background-color: #F5F5F5;
-  color: #333;
-}
-
-.top-main p {
-  clear: both;
-  margin-bottom: 20px;
-  padding: 10px 5px 0 5px;
-  font-size: 24px;
-  border-bottom: 3px solid #A9F5F2;
-  }
-
   a.a1 {background-color: #FF9933;}
   a.a2 {background-color: #00CCFF;}
   a.a3 {background-color: #33CC66;}
   a.a4 {background-color: #FF84D7;}
 
-.main a{
+.top-main a{
   font-size: 16px;
   font-weight: bold;
   display: block;
@@ -391,61 +375,37 @@ footer {
   color: #fff;
 }
 
-.main a:hover {
+.top-main a:hover {
   opacity: 0.8;
-
 }
 
-.top-main a {
-  font-size: 20px;
-  font-weight: bold;
-  display: block;
-  margin: 15px 5px;
-  padding: 10px 5px;
-  text-align: left;
-  color: #fff;
-}
-
-.top-main h3 {
-  font-size: 14px;
-  margin: 15px 10px;
-
-}
-
-.top-main h4 {
-  font-size:12px;
-  margin: 15px 10px;
-}
-
-.one-main {
-  margin-top: 20px 5px;
-}
-
-.two-main {
-  margin-top: 20px 5px;
-}
-
-.three-main {
-  margin-top: 20px 5px;
-}
+.main2 p {
+  clear: both;
+  margin-bottom: 20px;
+  padding: 10px 5px 0 5px;
+  font-size: 24px;
+  border-bottom: 3px solid #A9F5F2;
+  }
 
 .Entrusted {
   width: 90%;
-  margin: 10px auto;
-  padding: 10px;
+  margin: 20px auto;
   background-color: #F5F5F5;
   color: #333;
 }
 
 .environment {
   width: 90%;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
   background-color: #F5F5F5;
   color: #333;
+}
+
+.environment h3 {
+  font-size: 14px;
+  margin: 15px 10px;
 }
 
 /*ーーーーーーーーーーーCompanyBrochure.phpーーーーーーーーーーー*/
