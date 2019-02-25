@@ -145,7 +145,7 @@ https://flickity.metafizzy.co
   width: 75%;
   height: 350px;
   margin-right: 10px;
-  background: #98fb98;
+  background: #CEF6F5;
   border-radius: 5px;
   counter-increment: carousel-cell;
 }
@@ -161,12 +161,12 @@ https://flickity.metafizzy.co
 
 .carousel-cell h3 {
   font-size: 16px;
-  margin: 5px 5px;
+  margin: 5px 10px;
 }
 
 .carousel-cell h4 {
   font-size: 13px;
-  margin: 5px 5px;
+  margin: 5px 10px;
 }
 
 /* cell number */
