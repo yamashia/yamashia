@@ -359,6 +359,7 @@ footer {
   text-shadow: 1px 2px 2px white;
   opacity: 0.8;
 }
+
   a.a1 {background-color: #FF9933;}
   a.a2 {background-color: #00CCFF;}
   a.a3 {background-color: #33CC66;}
@@ -615,7 +616,7 @@ form {
   padding-bottom: 40px;
   background-image: url("../images/contact.png");
   background-size: cover;
-  border: solid 1px black;
+  border: solid 1px grey;
   border-radius: 3px;
   color: #333;
 }
