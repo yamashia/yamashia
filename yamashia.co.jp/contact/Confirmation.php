@@ -64,18 +64,6 @@
     );
     });
       </script>
-      <script>
-      $(function() {
-      $('.btn').hover(
-        function() {
-      $(this).fadeTo(1, 0.6);
-      },
-        function() {
-      $(this).fadeTo(1, 1.0);
-      }
-      );
-      });
-      </script>
   </head>
     <body>
       <header id="top-head">

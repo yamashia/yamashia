@@ -694,6 +694,10 @@ input[type="button"] {
   border: 1px solid #5cb85c;
 }
 
+.btn:hover {
+  opacity: 0.8;
+}
+
 textarea {
   width: 90%;
   height: 120px;
