@@ -19,6 +19,51 @@
   $stmt->execute();
   $dbh = null;
 ?>
+
+<?php
+if( !empty($_POST['btn_confirm']) ) {
+	$page_flag = 1;
+} elseif( !empty($_POST['btn_submit']) ) {
+  $page_flag = 2;
+	// 変数とタイムゾーンを初期化
+  $header = null;
+  $auto_reply_subject = null;
+  $auto_reply_text = null;
+  $admin_reply_subject = null;
+  $admin_reply_text = null;
+  date_default_timezone_set('Asia/Tokyo');
+  // ヘッダー情報を設定
+  $header = "MIME-Version: 1.0\n";
+  $header .= "From: 株式会社ヤマシア <kenichi.yamaguchi@yamashia.co.jp>\n";
+  $header .= "Reply-To: 株式会社ヤマシア <kenichi.yamaguchi@yamashia.co.jp>\n";
+	// 件名を設定
+  $auto_reply_subject = 'お問い合わせありがとうございます。';
+	// 本文を設定
+  $auto_reply_text = "この度は、お問い合わせ頂き誠にありがとうございます。下記の内容でお問い合わせを受け付けました。\n\n";
+  $auto_reply_text .= "お問い合わせ日時：" . date("Y-m-d H:i") . "\n";
+  $auto_reply_text .= "名前：" . $_POST['name'] . "\n";
+  $auto_reply_text .= "メールアドレス：" . $_POST['email'] . "\n\n";
+  $auto_reply_text .= "年齢：" . $_POST['age'] . "\n\n";
+  $auto_reply_text .= "お問い合わせ種類：" . $_POST['category'] . "\n\n";
+  $auto_reply_text .= "お問い合わせ内容：" . $_POST['content'] . "\n\n";
+  $auto_reply_text .= "株式会社ヤマシア";
+	// メール送信
+  mb_send_mail( $_POST['email'], $auto_reply_subject, $auto_reply_text);}
+
+  // 運営側へ送るメールの件名
+  $admin_reply_subject = "お問い合わせを受け付けました";
+  // 本文を設定
+  $admin_reply_text = "下記の内容でお問い合わせがありました。\n\n";
+  $admin_reply_text .= "お問い合わせ日時：" . date("Y-m-d H:i") . "\n";
+  $admin_reply_text .= "名前：" . $_POST['name'] . "\n";
+  $admin_reply_text .= "メールアドレス：" . $_POST['email'] . "\n\n";
+  $admin_reply_text .= "年齢：" . $_POST['age'] . "\n\n";
+  $admin_reply_text .= "お問い合わせ種類：" . $_POST['category'] . "\n\n";
+  $admin_reply_text .= "お問い合わせ内容：" . $_POST['content'] . "\n\n";
+  // 運営側へメール送信
+  mb_send_mail( 'kenichi.yamaguchi@yamashia.co.jp', $admin_reply_subject, $admin_reply_text, $header);
+?>
+
 <html>
   <head>
     <meta charset="utf-8">

@@ -137,8 +137,8 @@
          ?>
       </select>
       <div class="form-item">お問い合わせ内容 <small>※必須</small></div>
-      <textarea class="font-size" name="content" required placeholder="お問合せ内容を入力"></textarea>
-      <input class="btn" type="submit" value="確認">
+      <textarea class="font-size" name="content" required placeholder="お問い合わせ内容を入力"></textarea>
+      <input class="btn" type="submit" name="btn_confirm" value="確認">
     </form>
   </div>
 </div>

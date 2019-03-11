@@ -133,7 +133,7 @@
                    </div>
 
          <input class="btn" type="button" value="修正" onclick="history.back()">
-         <input class="btn" type="submit" value="送信">
+         <input class="btn" type="submit" name="btn_submit" value="送信">
      </form>
  </div>
 </div>
