@@ -485,8 +485,8 @@ td {
   color: #333;
 }
 
-.hidden_box label:hover {
-  text-decoration: underline;
+.hidden_box label {
+  color: #F5F5F5;
 }
 
 .hidden_box input {
