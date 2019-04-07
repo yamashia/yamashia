@@ -94,7 +94,7 @@ try{
 <h1>会員登録完了画面</h1>
 
 <p>登録完了いたしました。ログイン画面からどうぞ。</p>
-<p><a href="">ログイン画面（未リンク）</a></p>
+<p><a href="https://www.yamashia.co.jp/login/login_form.php">ログイン画面</a></p>
 
 <?php elseif(count($errors) > 0): ?>
 

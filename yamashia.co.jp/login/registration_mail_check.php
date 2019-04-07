@@ -122,9 +122,6 @@ EOM;
 
 <p><?=$message?></p>
 
-<p>↓このURLが記載されたメールが届きます。</p>
-<a href="<?=$url?>"><?=$url?></a>
-
 <?php elseif(count($errors) > 0): ?>
 
 <?php
